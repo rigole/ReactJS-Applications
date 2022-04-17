@@ -7,7 +7,7 @@ import Paneer from "../assets/paneer.jpg";
 import Tani from "../assets/tani.jpg";
 import Guti from "../assets/guti.jpeg";
 
-export const MenuList = [
+export const Datas = [
     {
         name: "Food 1",
         image:South,

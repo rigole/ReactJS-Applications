@@ -1,16 +1,21 @@
 import React from 'react';
-import  { MenuList } from '../data/data'
+import  { Datas } from '../data/data';
+import MenuItem from "../components/MenuItem";
+import '../styles/Menu.css';
 
 function Menu(){
     return (
         <div className="menu">
             <div className="menuTitle">
                 <div className="menuList">
-                    {MenuList.map((menuItem, key) => {
+                    {Datas.map((data, key) => {
                          return (
-                             <div>
-                                 {menuItem.price}
-                             </div>
+                             <MenuItem
+                                key={key}
+                                image={data.image}
+                                name={data.name}
+                                price={data.price}
+                             />
                          )
                     })}
                 </div>
