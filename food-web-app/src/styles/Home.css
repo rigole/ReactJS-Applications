@@ -61,6 +61,35 @@
     .headerContainer {
         margin-left: 0px;
         border-radius: 10px;
+        padding: 10px;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #121619;
+        color: white;
+    }
 
+    .headerContainer h1{
+        font-size: 40px;
+        height: 30px;
+        color: white;
+    }
+
+    .headerContainer p {
+        font-size: 30px;
+        color: white;
+    }
+
+    .headerContainer button {
+        background-color: white;
+        color: #121619;
+        margin-bottom: 30px;
+    }
+
+    .headerContainer button:hover {
+        background-color: rgb(255, 255, 255);
+        color: #121619;
     }
 }
