@@ -7,7 +7,7 @@ function MenuItem( { image, name, price }){
                 <h1>{name}</h1>
                 <p>{price}</p>
         </div>
-    )
+    ) 
 }
 
 export default MenuItem;
