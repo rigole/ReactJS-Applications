@@ -1,11 +1,12 @@
 import React from 'react';
 import '../styles/Contact.css';
+import ContactImage from '../assets/masala.jpg'
 
 function Contact(){
     return (
         <div className="contact">
-            <div className="leftSide">
-               leftSide
+            <div className="leftSide" style={{backgroundImage: `url(${ContactImage})`}}>
+
             </div>
             <div className="rightSide">
                 <h1>Contact Us</h1>
