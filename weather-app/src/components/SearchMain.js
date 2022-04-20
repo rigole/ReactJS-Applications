@@ -14,8 +14,11 @@ function SearchMain(){
 
             let res = await fetch(url);
             let data = await res.json();
-
-            console.log(data);
+            const {temp, humidity, pressure} = data.main;
+            const { main: weatherType } = data.weather;
+            const {name} = data;
+            const {speed} = data.wind;
+            //console.log(data);
         } catch (error) {
             console.log(error)
         }
