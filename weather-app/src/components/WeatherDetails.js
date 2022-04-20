@@ -16,6 +16,7 @@ function WeatherDetails(){
                         <div className="place">Douala, CM</div>
                     </div>
                 </div>
+                <div className="date">{new Date().toLocaleString()}</div>
             </article>
         </div>
     )
