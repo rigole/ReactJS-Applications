@@ -15,7 +15,7 @@
     --color-brand: #57db84;
     --height: 5rem;
     --btn-width: 6rem;
-    -bez: cubic-bezier(0, 0, 0.43, 1.49);
+    --bez: cubic-bezier(0, 0, 0.43, 1.49);
 }
 
 body {
@@ -44,7 +44,7 @@ body {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background: #fafafa;
-    font-family: weathericcons;
+    font-family: weathericons;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -84,7 +84,7 @@ body {
     font-weight: 100;
 }
 .widget .weatherInfo .description .place {
-    font-size: 15px;
+    font-size: 35px;
 }
 .widget .date {
     flex: 0 0 30%;
