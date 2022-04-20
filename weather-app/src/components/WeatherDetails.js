@@ -1,6 +1,19 @@
-import React from 'react';
+import React, {useState} from 'react';
 
-function WeatherDetails(){
+function WeatherDetails(
+    {
+        temp,
+        humidity,
+        pressure,
+        weatherType,
+        name,
+        speed,
+        country,
+        sunset
+    }
+
+){
+    const [weather, setWeatherState] = useState("")
     return(
         <div>
             <article className="widget">
@@ -9,11 +22,11 @@ function WeatherDetails(){
                 </div>
                 <div className="weatherInfo">
                     <div className="temperature">
-                        <span>23.99&deg;</span>
+                        <span>{temp}&deg;</span>
                     </div>
                     <div className="description">
-                        <div className="weatherCondition">Sunny</div>
-                        <div className="place">Douala, CM</div>
+                        <div className="weatherCondition">{weatherType}</div>
+                        <div className="place">{name}, {country}</div>
                     </div>
                 </div>
                 <div className="date">{new Date().toLocaleString()}</div>
@@ -24,7 +37,7 @@ function WeatherDetails(){
                                 <i className={"wi wi-sunset"}></i>
                             </p>
                             <p className="extra-info-leftside">
-                                10:30 PM <br/>
+                                {sunset} PM <br/>
                                 Sunset
                             </p>
                        </div>
@@ -35,7 +48,7 @@ function WeatherDetails(){
                                 <i className={"wi wi-humidity"}></i>
                             </p>
                             <p className="extra-info-leftside">
-                                444  <br/>
+                                {humidity}  <br/>
                                 Humidity
                             </p>
                         </div>
@@ -46,7 +59,7 @@ function WeatherDetails(){
                                 <i className={"wi wi-rain"}></i>
                             </p>
                             <p className="extra-info-leftside">
-                                444  <br/>
+                                {pressure}  <br/>
                                 Pressure
                             </p>
                         </div>
@@ -57,7 +70,7 @@ function WeatherDetails(){
                                 <i className={"wi wi-strong-wind"}></i>
                             </p>
                             <p className="extra-info-leftside">
-                                422  <br/>
+                                {speed}  <br/>
                                 Speed
                             </p>
                         </div>
