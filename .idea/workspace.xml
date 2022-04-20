@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="creating the second project. A weather App" />
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="creating the second project. A weather App">
+      <change afterPath="$PROJECT_DIR$/weather-app/src/components/SearchMain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather-app/src/components/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +61,8 @@
       <workItem from="1650180042246" duration="13358000" />
       <workItem from="1650368891540" duration="8482000" />
       <workItem from="1650384494818" duration="163000" />
-      <workItem from="1650440106960" duration="705000" />
+      <workItem from="1650440106960" duration="2249000" />
+      <workItem from="1650442989636" duration="906000" />
     </task>
     <task id="LOCAL-00001" summary="reacreating the project to suppress the error of 2 apps">
       <created>1650030537426</created>
