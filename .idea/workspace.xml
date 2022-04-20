@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="creating the second project. A weather App">
-      <change afterPath="$PROJECT_DIR$/weather-app/src/components/SearchMain.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-app/src/components/style.css" afterDir="false" />
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="the second project: component Search and style 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/src/components/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/components/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
       <workItem from="1650368891540" duration="8482000" />
       <workItem from="1650384494818" duration="163000" />
       <workItem from="1650440106960" duration="2249000" />
-      <workItem from="1650442989636" duration="906000" />
+      <workItem from="1650442989636" duration="2857000" />
     </task>
     <task id="LOCAL-00001" summary="reacreating the project to suppress the error of 2 apps">
       <created>1650030537426</created>
@@ -197,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650440223147</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="the second project: component Search and style 1">
+      <created>1650443950985</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1650443950985</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +241,7 @@
     <MESSAGE value="contact page and its style 2" />
     <MESSAGE value="contact page and its style 3" />
     <MESSAGE value="creating the second project. A weather App" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating the second project. A weather App" />
+    <MESSAGE value="the second project: component Search and style 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="the second project: component Search and style 1" />
   </component>
 </project>
