@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="creating the second project. A weather App" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27po7xU2NFlcyumsh5G7sM95MbV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Plass\WebstormProjects\ReactJS-Applications" />
+      <recent name="C:\Users\Plass\WebstormProjects\ReactJS-Applications\food-web-app\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="" />
+      <created>1650026238836</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650026238836</updated>
+      <workItem from="1650026244345" duration="14130000" />
+      <workItem from="1650120368732" duration="3122000" />
+      <workItem from="1650180042246" duration="13358000" />
+      <workItem from="1650368891540" duration="8482000" />
+      <workItem from="1650384494818" duration="163000" />
+      <workItem from="1650440106960" duration="705000" />
+    </task>
+    <task id="LOCAL-00001" summary="reacreating the project to suppress the error of 2 apps">
+      <created>1650030537426</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650030537426</updated>
+    </task>
+    <task id="LOCAL-00002" summary="styling the Navbar">
+      <created>1650032796563</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650032796563</updated>
+    </task>
+    <task id="LOCAL-00003" summary="styling the Navbar 2">
+      <created>1650033524914</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650033524914</updated>
+    </task>
+    <task id="LOCAL-00004" summary="styling the Navbar 3">
+      <created>1650047776022</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650047776022</updated>
+    </task>
+    <task id="LOCAL-00005" summary="creating the home page component">
+      <created>1650049778090</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650049778090</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fixing the home page + styling of the home page 1">
+      <created>1650182183276</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650182183276</updated>
+    </task>
+    <task id="LOCAL-00007" summary="styling of the home page 2 + new banner">
+      <created>1650188255218</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650188255218</updated>
+    </task>
+    <task id="LOCAL-00008" summary="creating Footer components">
+      <created>1650189377677</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1650189377677</updated>
+    </task>
+    <task id="LOCAL-00009" summary="footer styles">
+      <created>1650190026381</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650190026381</updated>
+    </task>
+    <task id="LOCAL-00010" summary="creating and rendering the menu component">
+      <created>1650191924395</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650191924395</updated>
+    </task>
+    <task id="LOCAL-00011" summary="creating the Menuitem Component to render it in the menu page">
+      <created>1650196755587</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650196755587</updated>
+    </task>
+    <task id="LOCAL-00012" summary="styling the menu page">
+      <created>1650198542493</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1650198542493</updated>
+    </task>
+    <task id="LOCAL-00013" summary="about component">
+      <created>1650370506948</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1650370506948</updated>
+    </task>
+    <task id="LOCAL-00014" summary="about component 2">
+      <created>1650371135896</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1650371135896</updated>
+    </task>
+    <task id="LOCAL-00015" summary="About page style">
+      <created>1650372842405</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1650372842405</updated>
+    </task>
+    <task id="LOCAL-00016" summary="contact page and its style 1">
+      <created>1650374220669</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1650374220669</updated>
+    </task>
+    <task id="LOCAL-00017" summary="contact page and its style 2">
+      <created>1650375040565</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1650375040565</updated>
+    </task>
+    <task id="LOCAL-00018" summary="contact page and its style 3">
+      <created>1650376825313</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1650376825313</updated>
+    </task>
+    <task id="LOCAL-00019" summary="creating the second project. A weather App">
+      <created>1650440223147</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1650440223147</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="reacreating the project to suppress the error of 2 apps" />
+    <MESSAGE value="styling the Navbar" />
+    <MESSAGE value="styling the Navbar 2" />
+    <MESSAGE value="styling the Navbar 3" />
+    <MESSAGE value="creating the home page component" />
+    <MESSAGE value="fixing the home page + styling of the home page 1" />
+    <MESSAGE value="styling of the home page 2 + new banner" />
+    <MESSAGE value="creating Footer components" />
+    <MESSAGE value="footer styles" />
+    <MESSAGE value="creating and rendering the menu component" />
+    <MESSAGE value="creating the Menuitem Component to render it in the menu page" />
+    <MESSAGE value="styling the menu page" />
+    <MESSAGE value="about component" />
+    <MESSAGE value="about component 2" />
+    <MESSAGE value="About page style" />
+    <MESSAGE value="contact page and its style" />
+    <MESSAGE value="contact page and its style 1" />
+    <MESSAGE value="contact page and its style 2" />
+    <MESSAGE value="contact page and its style 3" />
+    <MESSAGE value="creating the second project. A weather App" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating the second project. A weather App" />
+  </component>
+</project>
