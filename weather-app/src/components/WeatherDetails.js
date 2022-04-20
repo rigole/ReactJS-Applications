@@ -28,6 +28,8 @@ function WeatherDetails(){
                                 Sunset
                             </p>
                        </div>
+
+
                         <div className="two-sided-section">
                             <p>
                                 <i className={"wi wi-humidity"}></i>
@@ -37,6 +39,8 @@ function WeatherDetails(){
                                 Humidity
                             </p>
                         </div>
+                    </div>
+                    <div className="weather-extra-info">
                         <div className="two-sided-section">
                             <p>
                                 <i className={"wi wi-rain"}></i>
@@ -46,6 +50,7 @@ function WeatherDetails(){
                                 Pressure
                             </p>
                         </div>
+
 
                         <div className="two-sided-section">
                             <p>

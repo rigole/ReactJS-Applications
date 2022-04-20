@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="weather component styling">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="adding speed, pressure, humidity">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather-app/src/components/WeatherDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/components/WeatherDetails.js" afterDir="false" />
     </list>
@@ -61,7 +61,7 @@
       <workItem from="1650368891540" duration="8482000" />
       <workItem from="1650384494818" duration="163000" />
       <workItem from="1650440106960" duration="2249000" />
-      <workItem from="1650442989636" duration="11025000" />
+      <workItem from="1650442989636" duration="12382000" />
     </task>
     <task id="LOCAL-00001" summary="reacreating the project to suppress the error of 2 apps">
       <created>1650030537426</created>
@@ -252,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650455233495</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="adding speed, pressure, humidity">
+      <created>1650456797146</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1650456797146</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +277,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="styling the Navbar 3" />
     <MESSAGE value="creating the home page component" />
     <MESSAGE value="fixing the home page + styling of the home page 1" />
     <MESSAGE value="styling of the home page 2 + new banner" />
@@ -295,6 +301,7 @@
     <MESSAGE value="creating the weather components and rendering it in the Search page" />
     <MESSAGE value="weather component rendering 2" />
     <MESSAGE value="weather component styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="weather component styling" />
+    <MESSAGE value="adding speed, pressure, humidity" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding speed, pressure, humidity" />
   </component>
 </project>
