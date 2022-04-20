@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="adding speed, pressure, humidity">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="adding speed, pressure, humidity 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-app/src/components/WeatherDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/components/WeatherDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/src/components/SearchMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/components/SearchMain.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,8 @@
       <workItem from="1650368891540" duration="8482000" />
       <workItem from="1650384494818" duration="163000" />
       <workItem from="1650440106960" duration="2249000" />
-      <workItem from="1650442989636" duration="12382000" />
+      <workItem from="1650442989636" duration="13763000" />
+      <workItem from="1650464832072" duration="2334000" />
     </task>
     <task id="LOCAL-00001" summary="reacreating the project to suppress the error of 2 apps">
       <created>1650030537426</created>
@@ -259,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650456797146</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="adding speed, pressure, humidity 2">
+      <created>1650458051932</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1650458051932</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +285,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="creating the home page component" />
     <MESSAGE value="fixing the home page + styling of the home page 1" />
     <MESSAGE value="styling of the home page 2 + new banner" />
     <MESSAGE value="creating Footer components" />
@@ -302,6 +309,7 @@
     <MESSAGE value="weather component rendering 2" />
     <MESSAGE value="weather component styling" />
     <MESSAGE value="adding speed, pressure, humidity" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding speed, pressure, humidity" />
+    <MESSAGE value="adding speed, pressure, humidity 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding speed, pressure, humidity 2" />
   </component>
 </project>
