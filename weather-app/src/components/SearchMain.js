@@ -13,7 +13,7 @@ function SearchMain(){
     const getWeatherInfo = async () => {
 
         try {
-            let url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=8ed4e9412e2b8e447572ddb968492e1b`
+            let url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=8ed4e9412e2b8e447572ddb968492e1b`
 
             let res = await fetch(url);
             let data = await res.json();
@@ -69,7 +69,7 @@ function SearchMain(){
                     <button className="searchButton" onClick={getWeatherInfo}>Search</button>
 
             </div>
-            <WeatherDetails {...tempInfo}/>
+            <WeatherDetails {... tempInfo}/>
         </>
     )
 }
