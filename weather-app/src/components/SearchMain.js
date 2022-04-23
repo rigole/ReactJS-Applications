@@ -7,8 +7,8 @@ function SearchMain(){
     const [latitude, setlatitude] = useState('4.0511');
     const[tempInfo, setTempInfo]= useState({});
 
-    console.log(longitude);
-    console.log(latitude);
+    /*console.log(longitude);
+    console.log(latitude);*/
     //https://api.openweathermap.org/data/2.5/weather?lat=4.0511&lon=9.7679&appid=8ed4e9412e2b8e447572ddb968492e1b
     const getWeatherInfo = async () => {
 
@@ -18,11 +18,11 @@ function SearchMain(){
             let res = await fetch(url);
             let data = await res.json();
             const {temp, humidity, pressure} = data.main;
-            const { main: weatherType } = data.weather;
+            const { main: weatherType } = data.weather[0];
             const {name} = data;
             const {speed} = data.wind;
             const {country, sunset} = data.sys;
-            //console.log(data);
+            console.log(weatherType);
 
             const myNewWeatherInfo = {
                 temp,

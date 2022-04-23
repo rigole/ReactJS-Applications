@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="fetching data from an API 2">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="changing metrics">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather-app/src/components/SearchMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/components/SearchMain.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather-app/src/components/WeatherDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/src/components/WeatherDetails.js" afterDir="false" />
@@ -65,7 +65,10 @@
       <workItem from="1650442989636" duration="13763000" />
       <workItem from="1650464832072" duration="6739000" />
       <workItem from="1650538170798" duration="2051000" />
-      <workItem from="1650572281219" duration="873000" />
+      <workItem from="1650572281219" duration="1272000" />
+      <workItem from="1650628742252" duration="3516000" />
+      <workItem from="1650645434318" duration="3773000" />
+      <workItem from="1650727962193" duration="845000" />
     </task>
     <task id="LOCAL-00001" summary="reacreating the project to suppress the error of 2 apps">
       <created>1650030537426</created>
@@ -284,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650468806369</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="changing metrics">
+      <created>1650573231775</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1650573231775</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +312,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="creating Footer components" />
     <MESSAGE value="footer styles" />
     <MESSAGE value="creating and rendering the menu component" />
     <MESSAGE value="creating the Menuitem Component to render it in the menu page" />
@@ -327,6 +336,7 @@
     <MESSAGE value="adding speed, pressure, humidity 2" />
     <MESSAGE value="fetching data from an API" />
     <MESSAGE value="fetching data from an API 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="fetching data from an API 2" />
+    <MESSAGE value="changing metrics" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing metrics" />
   </component>
 </project>
