@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="fixing the api call to change icon according to the time">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="creating and setting the third project expense-tracker">
+      <change afterPath="$PROJECT_DIR$/expense-tracker/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-tracker/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-tracker/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-tracker/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-tracker/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-tracker/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-tracker/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-tracker/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-tracker/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-tracker/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-tracker/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-tracker/src/components/Balance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-tracker/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-tracker/src/components/IncomeExpense.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-tracker/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/expense-tracker/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +48,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -67,7 +84,7 @@
       <workItem from="1650628742252" duration="3516000" />
       <workItem from="1650645434318" duration="3773000" />
       <workItem from="1650727962193" duration="1065000" />
-      <workItem from="1650791481239" duration="366000" />
+      <workItem from="1650791481239" duration="1977000" />
     </task>
     <task id="LOCAL-00001" summary="reacreating the project to suppress the error of 2 apps">
       <created>1650030537426</created>
@@ -300,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650728844030</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="creating and setting the third project expense-tracker">
+      <created>1650792169142</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1650792169142</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +342,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="creating and rendering the menu component" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="creating the Menuitem Component to render it in the menu page" />
     <MESSAGE value="styling the menu page" />
     <MESSAGE value="about component" />
@@ -343,6 +367,7 @@
     <MESSAGE value="fetching data from an API 2" />
     <MESSAGE value="changing metrics" />
     <MESSAGE value="fixing the api call to change icon according to the time" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing the api call to change icon according to the time" />
+    <MESSAGE value="creating and setting the third project expense-tracker" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating and setting the third project expense-tracker" />
   </component>
 </project>
