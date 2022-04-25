@@ -9,10 +9,12 @@ import {GlobalProvider} from "./context/GlobalSate";
 function App() {
   return (
     <>
-        <Header/>
-        <Balance/>
-        <IncomeExpense/>
-        <TransactionList/>
+        <GlobalProvider>
+            <Header/>
+            <Balance/>
+            <IncomeExpense/>
+            <TransactionList/>
+        </GlobalProvider>
     </>
   );
 }

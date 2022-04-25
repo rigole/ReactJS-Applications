@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="rendering components and test them">
-      <change afterPath="$PROJECT_DIR$/expense-tracker/src/context/AppReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/expense-tracker/src/context/GlobalSate.js" afterDir="false" />
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="creating global provider and app reducer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expense-tracker/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/expense-tracker/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expense-tracker/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/expense-tracker/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
       <workItem from="1650628742252" duration="3516000" />
       <workItem from="1650645434318" duration="3773000" />
       <workItem from="1650727962193" duration="1065000" />
-      <workItem from="1650791481239" duration="9126000" />
+      <workItem from="1650791481239" duration="13473000" />
     </task>
     <task id="LOCAL-00001" summary="reacreating the project to suppress the error of 2 apps">
       <created>1650030537426</created>
@@ -324,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650870948771</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="creating global provider and app reducer">
+      <created>1650873242237</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1650873242237</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +350,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="about component" />
     <MESSAGE value="about component 2" />
     <MESSAGE value="About page style" />
     <MESSAGE value="contact page and its style" />
@@ -368,6 +374,7 @@
     <MESSAGE value="creating and setting the third project expense-tracker" />
     <MESSAGE value="creating Header, Balance and IncomeExpense component" />
     <MESSAGE value="rendering components and test them" />
-    <option name="LAST_COMMIT_MESSAGE" value="rendering components and test them" />
+    <MESSAGE value="creating global provider and app reducer" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating global provider and app reducer" />
   </component>
 </project>
