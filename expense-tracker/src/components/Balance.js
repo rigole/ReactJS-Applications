@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useContext} from "react";
 import { GlobalContext } from "../context/GlobalSate";
 
 function moneyFormatter(num){
@@ -11,10 +11,13 @@ function moneyFormatter(num){
 }
 
 export const Balance = () => {
+    const {transactions} = useContext(GlobalContext);
+    const amounts = transactions.map((transaction) => transaction.amount);
+    const total = amounts.reduce((acc, item) => (acc += item), 0);
     return (
         <div>
             <h4>Balance</h4>
-            <h1>35 000 FCFA</h1>
+            <h1> {moneyFormatter(total)} </h1>
         </div>
     )
 }

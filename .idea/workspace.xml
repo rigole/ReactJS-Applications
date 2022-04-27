@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="adding new transaction">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="balance setting 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expense-tracker/src/components/AddTransaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/expense-tracker/src/components/AddTransaction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/expense-tracker/src/components/Balance.js" beforeDir="false" afterPath="$PROJECT_DIR$/expense-tracker/src/components/Balance.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +71,7 @@
       <workItem from="1650727962193" duration="1065000" />
       <workItem from="1650791481239" duration="17318000" />
       <workItem from="1651052200721" duration="1033000" />
-      <workItem from="1651053334707" duration="1862000" />
+      <workItem from="1651053334707" duration="2499000" />
     </task>
     <task id="LOCAL-00001" summary="reacreating the project to suppress the error of 2 apps">
       <created>1650030537426</created>
@@ -347,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651053611292</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="balance setting 1">
+      <created>1651056134072</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1651056134072</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,7 +372,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="contact page and its style" />
     <MESSAGE value="contact page and its style 1" />
     <MESSAGE value="contact page and its style 2" />
     <MESSAGE value="contact page and its style 3" />
@@ -391,6 +396,7 @@
     <MESSAGE value="creating global provider and app reducer" />
     <MESSAGE value="styling the app" />
     <MESSAGE value="adding new transaction" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding new transaction" />
+    <MESSAGE value="balance setting 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="balance setting 1" />
   </component>
 </project>
