@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="balance setting 3">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="setting the globalState 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expense-tracker/src/components/Transaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/expense-tracker/src/components/Transaction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expense-tracker/src/components/TransactionList.js" beforeDir="false" afterPath="$PROJECT_DIR$/expense-tracker/src/components/TransactionList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expense-tracker/src/components/IncomeExpense.js" beforeDir="false" afterPath="$PROJECT_DIR$/expense-tracker/src/components/IncomeExpense.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expense-tracker/src/context/AppReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/expense-tracker/src/context/AppReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/expense-tracker/src/context/GlobalSate.js" beforeDir="false" afterPath="$PROJECT_DIR$/expense-tracker/src/context/GlobalSate.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +74,7 @@
       <workItem from="1650791481239" duration="17318000" />
       <workItem from="1651052200721" duration="1033000" />
       <workItem from="1651053334707" duration="2812000" />
-      <workItem from="1651068389606" duration="4801000" />
+      <workItem from="1651068389606" duration="6873000" />
     </task>
     <task id="LOCAL-00001" summary="reacreating the project to suppress the error of 2 apps">
       <created>1650030537426</created>
@@ -370,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651130451992</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="setting the globalState 1">
+      <created>1651133816001</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1651133816001</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,7 +396,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="contact page and its style 3" />
     <MESSAGE value="creating the second project. A weather App" />
     <MESSAGE value="the second project: component Search and style 1" />
     <MESSAGE value="the second project: component Search and style 2" />
@@ -414,6 +420,7 @@
     <MESSAGE value="balance setting 1" />
     <MESSAGE value="balance setting 2" />
     <MESSAGE value="balance setting 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="balance setting 3" />
+    <MESSAGE value="setting the globalState 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting the globalState 1" />
   </component>
 </project>
