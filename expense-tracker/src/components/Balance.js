@@ -6,7 +6,7 @@ function moneyFormatter(num){
     return (
         p[0].split("").reverse().reduce(function (acc, num, i, orig){
             return num === "-" ? acc : num + (i && !(i % 3) ? "," : "") + acc;
-        }, "" ) + "." + p[1] + "FCFA"
+        }, "" ) + "." + p[1] + " " +"FCFA"
     );
 }
 
