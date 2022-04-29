@@ -1,5 +1,5 @@
 import React, {useContext} from "react";
-import { GlobalContext } from "../context/GlobalSate";
+import { GlobalContext } from "../context/GlobalState";
 
 
 function moneyFormatter(num){

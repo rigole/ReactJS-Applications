@@ -1,5 +1,5 @@
 import React, {useContext} from "react";
-import {GlobalContext} from "../context/GlobalSate";
+import {GlobalContext} from "../context/GlobalState";
 
 
 
@@ -16,12 +16,11 @@ function moneyFormatter(num){
 
 export const Transaction = ({ transaction }) => {
 
-
     const { deleteTransaction } = useContext(GlobalContext);
     const sign = transaction.amount < 0 ? "-" : "+";
     return (
         <li className={transaction.amount < 0 ? "minus" : "plus"}>
-            {transaction.text} <span> {sign} {moneyFormatter(transaction.amount)}</span>
+            {transaction.text} {" "} <span> {sign} {moneyFormatter(transaction.amount)}</span>
             <button className="delete-btn"
             onClick={() => deleteTransaction(transaction.id)}>x</button>
         </li>
