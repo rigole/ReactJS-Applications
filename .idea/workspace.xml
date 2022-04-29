@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="setting the globalState 3">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="new app pomorodo-app">
+      <change afterPath="$PROJECT_DIR$/pomorodo-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pomorodo-app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pomorodo-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pomorodo-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pomorodo-app/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pomorodo-app/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pomorodo-app/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pomorodo-app/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pomorodo-app/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pomorodo-app/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pomorodo-app/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pomorodo-app/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pomorodo-app/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pomorodo-app/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pomorodo-app/src/reportWebVitals.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expense-tracker/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/expense-tracker/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expense-tracker/src/components/AddTransaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/expense-tracker/src/components/AddTransaction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expense-tracker/src/components/Balance.js" beforeDir="false" afterPath="$PROJECT_DIR$/expense-tracker/src/components/Balance.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expense-tracker/src/components/IncomeExpense.js" beforeDir="false" afterPath="$PROJECT_DIR$/expense-tracker/src/components/IncomeExpense.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expense-tracker/src/components/Transaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/expense-tracker/src/components/Transaction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expense-tracker/src/components/TransactionList.js" beforeDir="false" afterPath="$PROJECT_DIR$/expense-tracker/src/components/TransactionList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expense-tracker/src/context/AppReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/expense-tracker/src/context/AppReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expense-tracker/src/context/GlobalSate.js" beforeDir="false" afterPath="$PROJECT_DIR$/expense-tracker/src/context/GlobalState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +88,7 @@
       <workItem from="1651052200721" duration="1033000" />
       <workItem from="1651053334707" duration="2812000" />
       <workItem from="1651068389606" duration="9497000" />
-      <workItem from="1651241029097" duration="603000" />
+      <workItem from="1651241029097" duration="1999000" />
     </task>
     <task id="LOCAL-00001" summary="reacreating the project to suppress the error of 2 apps">
       <created>1650030537426</created>
@@ -397,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651136168635</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="fixing the GlobalSate problem and css">
+      <created>1651241908990</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1651241908990</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,8 +431,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="the second project: component Search and style 2" />
-    <MESSAGE value="the second project: component Search and style 3" />
     <MESSAGE value="the second project: component Search and style 4" />
     <MESSAGE value="search component" />
     <MESSAGE value="creating the weather components and rendering it in the Search page" />
@@ -441,6 +454,8 @@
     <MESSAGE value="setting the globalState 1" />
     <MESSAGE value="setting the globalState 2 and fixing bug on incomeExpenses" />
     <MESSAGE value="setting the globalState 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="setting the globalState 3" />
+    <MESSAGE value="fixing the GlobalSate problem and css" />
+    <MESSAGE value="new app pomorodo-app" />
+    <option name="LAST_COMMIT_MESSAGE" value="new app pomorodo-app" />
   </component>
 </project>
