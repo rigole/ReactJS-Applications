@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="creating Pomorodo component">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="adding some style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pomorodo-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pomorodo-app/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pomorodo-app/src/components/Pomorodo.js" beforeDir="false" afterPath="$PROJECT_DIR$/pomorodo-app/src/components/Pomorodo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,14 +74,7 @@
       <workItem from="1651053334707" duration="2812000" />
       <workItem from="1651068389606" duration="9497000" />
       <workItem from="1651241029097" duration="2104000" />
-      <workItem from="1651306053516" duration="4150000" />
-    </task>
-    <task id="LOCAL-00002" summary="styling the Navbar">
-      <created>1650032796563</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1650032796563</updated>
+      <workItem from="1651306053516" duration="5310000" />
     </task>
     <task id="LOCAL-00003" summary="styling the Navbar 2">
       <created>1650033524914</created>
@@ -419,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651309587088</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="adding some style">
+      <created>1651322217515</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1651322217515</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +438,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="weather component rendering 2" />
     <MESSAGE value="weather component styling" />
     <MESSAGE value="adding speed, pressure, humidity" />
     <MESSAGE value="adding speed, pressure, humidity 2" />
@@ -463,6 +462,7 @@
     <MESSAGE value="creating the button component which is set to be used many times" />
     <MESSAGE value="styling the button and adding the counter" />
     <MESSAGE value="creating Pomorodo component" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating Pomorodo component" />
+    <MESSAGE value="adding some style" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding some style" />
   </component>
 </project>
