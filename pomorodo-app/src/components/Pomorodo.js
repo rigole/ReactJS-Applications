@@ -41,11 +41,11 @@ function Pomorodo() {
 
     return (
         <div className="form-container">
-            <form>
+            <form noValidate onSubmit={handleSubmit}>
                 <div className="input-wrapper">
-                    <input className="input" type="number" name="work" />
-                    <input className="input" type="number" name="shortBreak" />
-                    <input className="input" type="number" name="longBreak" />
+                    <input className="input" type="number" name="work" onChange={handleChange} value={newTimer.work}/>
+                    <input className="input" type="number" name="shortBreak" onChange={handleChange} value={newTimer.short}/>
+                    <input className="input" type="number" name="longBreak" onChange={handleChange} value={newTimer.long}/>
                 </div>
                 <button type="submit">Set Timer</button>
             </form>
