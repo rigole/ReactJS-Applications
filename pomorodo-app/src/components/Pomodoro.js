@@ -1,6 +1,6 @@
 import React, {useContext, useState} from "react";
 
-function Pomorodo() {
+function Pomodoro() {
 
     const [newTimer, setNewTimer] = useState({
         work: 0.2,
@@ -53,4 +53,4 @@ function Pomorodo() {
     )
 }
 
-export default Pomorodo
+export default Pomodoro
