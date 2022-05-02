@@ -6,6 +6,22 @@ import {SettingsContext} from "./context/SettingsContext";
 import './App.css';
 
 function App() {
+    const {
+        pomodoro,
+        executing,
+        startAnimate,
+        children,
+        startTimer,
+        pauseTimer,
+        updateExecute,
+        setCurrentTimer,
+        SettingsBtn
+    } = useContext(SettingsContext);
+
+    useEffect(() => {
+        updateExecute(executing);
+
+    }, [executing, startAnimate])
 
   return (
     <div>
