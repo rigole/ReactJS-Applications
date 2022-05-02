@@ -25,7 +25,42 @@ function App() {
 
   return (
     <div>
-      <Button/>
+        <h1>Pomodoro</h1>
+        <small>Be productive </small>
+        {pomodoro == 0 ? (
+            <Pomodoro/>
+        ): (
+            <div>
+                <ul className="labels">
+                    <li>
+                        <Button
+                            title="work"
+                            activeClass={executing.active === "work" ? "active-label" : undefined}
+                            _callback={() => setCurrentTimer("work")}
+                        />
+                    </li>
+                    <li>
+                        <Button
+                            title="Short Break"
+                            activeClass={
+                                executing.active === "short" ? "active-label" : undefined
+                            }
+                            _callback={() => setCurrentTimer("short")}
+                        />
+                    </li>
+                    <li>
+                        <Button
+                            title="Long Break"
+                            activeClass={
+                                executing.active === "long" ? "active-label" : undefined
+                            }
+                            _callback={() => setCurrentTimer("long")}
+                        />
+                    </li>
+                </ul>
+                <Button title="settings" _callback={SettingsBtn}/>
+            </div>
+        )}
     </div>
   );
 }

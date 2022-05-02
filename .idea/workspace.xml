@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="refactoring some files">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="setting app file 1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pomorodo-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/pomorodo-app/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,14 +76,7 @@
       <workItem from="1651241029097" duration="2104000" />
       <workItem from="1651306053516" duration="7420000" />
       <workItem from="1651427959692" duration="1032000" />
-      <workItem from="1651478149182" duration="8853000" />
-    </task>
-    <task id="LOCAL-00009" summary="footer styles">
-      <created>1650190026381</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1650190026381</updated>
+      <workItem from="1651478149182" duration="11714000" />
     </task>
     <task id="LOCAL-00010" summary="creating and rendering the menu component">
       <created>1650191924395</created>
@@ -420,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651496370972</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="setting app file 1">
+      <created>1651496747144</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1651496747145</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,7 +440,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fixing the api call to change icon according to the time" />
     <MESSAGE value="creating and setting the third project expense-tracker" />
     <MESSAGE value="creating Header, Balance and IncomeExpense component" />
     <MESSAGE value="rendering components and test them" />
@@ -464,6 +464,7 @@
     <MESSAGE value="setting the context 1" />
     <MESSAGE value="setting the context 2" />
     <MESSAGE value="refactoring some files" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring some files" />
+    <MESSAGE value="setting app file 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting app file 1" />
   </component>
 </project>
