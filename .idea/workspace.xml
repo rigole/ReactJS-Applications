@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="creating and setting the countdown component">
-      <change afterPath="$PROJECT_DIR$/pomorodo-app/src/context/SettingsContext.js" afterDir="false" />
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="setting the context 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pomorodo-app/src/context/SettingsContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/pomorodo-app/src/context/SettingsContext.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,14 +76,7 @@
       <workItem from="1651241029097" duration="2104000" />
       <workItem from="1651306053516" duration="7420000" />
       <workItem from="1651427959692" duration="1032000" />
-      <workItem from="1651478149182" duration="3224000" />
-    </task>
-    <task id="LOCAL-00006" summary="fixing the home page + styling of the home page 1">
-      <created>1650182183276</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1650182183276</updated>
+      <workItem from="1651478149182" duration="7078000" />
     </task>
     <task id="LOCAL-00007" summary="styling of the home page 2 + new banner">
       <created>1650188255218</created>
@@ -421,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651324972114</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="setting the context 1">
+      <created>1651483614758</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1651483614758</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +440,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fetching data from an API" />
     <MESSAGE value="fetching data from an API 2" />
     <MESSAGE value="changing metrics" />
     <MESSAGE value="fixing the api call to change icon according to the time" />
@@ -465,6 +464,7 @@
     <MESSAGE value="creating function for pomorodo" />
     <MESSAGE value="ending to set the pomorodo component" />
     <MESSAGE value="creating and setting the countdown component" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating and setting the countdown component" />
+    <MESSAGE value="setting the context 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting the context 1" />
   </component>
 </project>
