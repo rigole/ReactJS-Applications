@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="setting app file 1">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="setting app file 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pomorodo-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/pomorodo-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pomorodo-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pomorodo-app/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,14 +77,8 @@
       <workItem from="1651241029097" duration="2104000" />
       <workItem from="1651306053516" duration="7420000" />
       <workItem from="1651427959692" duration="1032000" />
-      <workItem from="1651478149182" duration="11714000" />
-    </task>
-    <task id="LOCAL-00010" summary="creating and rendering the menu component">
-      <created>1650191924395</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1650191924395</updated>
+      <workItem from="1651478149182" duration="12341000" />
+      <workItem from="1651573521339" duration="2608000" />
     </task>
     <task id="LOCAL-00011" summary="creating the Menuitem Component to render it in the menu page">
       <created>1650196755587</created>
@@ -421,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651496747145</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="setting app file 2">
+      <created>1651499923082</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1651499923082</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +442,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="creating and setting the third project expense-tracker" />
     <MESSAGE value="creating Header, Balance and IncomeExpense component" />
     <MESSAGE value="rendering components and test them" />
     <MESSAGE value="creating global provider and app reducer" />
@@ -465,6 +466,7 @@
     <MESSAGE value="setting the context 2" />
     <MESSAGE value="refactoring some files" />
     <MESSAGE value="setting app file 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="setting app file 1" />
+    <MESSAGE value="setting app file 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting app file 2" />
   </component>
 </project>

@@ -1,3 +1,36 @@
+.container {
+  color: #c9ccea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(39, 42, 85);
+  background: radial-gradient(circle, #1E2140 0%, #151932 65%);
+}
+
+.container h1 {
+  font-size: 2.6rem;
+  margin-bottom: 0.2rem;
+}
+
+.container .labels {
+   list-style: none;
+  display: flex;
+  text-transform: uppercase;
+  font-size: .8rem;
+  padding: .3rem .3rem;
+  background-color: #0C0E1B;
+  border-radius: 1.5rem;
+}
+
+.active-label {
+  color: #0c0e1b;
+  background-color: #FE6F6B;
+}
+
+
+
 button {
   color: #efefef;
   font-size: 0.8rem;

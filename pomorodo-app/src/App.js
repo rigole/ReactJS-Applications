@@ -59,6 +59,15 @@ function App() {
                     </li>
                 </ul>
                 <Button title="settings" _callback={SettingsBtn}/>
+                <div className="timer-container">
+                    <div className="timer-wrapper">
+                        <CountDown key={pomodoro} timer={pomodoro} animate={startAnimate}>{children}</CountDown>
+                    </div>
+                </div>
+                <div className="button-wrapper">
+                    <Button title="Start" activeClass={!startAnimate ? "active" : undefined} _callback={startTimer}/>
+                    <Button title="Pause" activeClass={startAnimate ? "active" : undefined} _callback={pauseTimer}/>
+                </div>
             </div>
         )}
     </div>
