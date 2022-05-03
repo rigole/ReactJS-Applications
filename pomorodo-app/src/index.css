@@ -29,7 +29,32 @@
   background-color: #FE6F6B;
 }
 
+.timer-container {
+  display: flex;
+  flex: 2;
+  align-items: center;
+  justify-content: center;
+}
 
+.time-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 7.5rem;
+  color: #efefef;
+  background: #151932;
+  font-size: 3.5rem;
+  box-shadow: 1rem 1.5rem 2rem rgba(0,0,0,0.6);
+}
+
+button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
 
 button {
   color: #efefef;

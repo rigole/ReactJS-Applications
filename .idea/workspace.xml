@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="setting app file 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pomorodo-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/pomorodo-app/src/App.js" afterDir="false" />
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="setting app file 3">
       <change beforePath="$PROJECT_DIR$/pomorodo-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pomorodo-app/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,14 +76,7 @@
       <workItem from="1651306053516" duration="7420000" />
       <workItem from="1651427959692" duration="1032000" />
       <workItem from="1651478149182" duration="12341000" />
-      <workItem from="1651573521339" duration="2608000" />
-    </task>
-    <task id="LOCAL-00011" summary="creating the Menuitem Component to render it in the menu page">
-      <created>1650196755587</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1650196755587</updated>
+      <workItem from="1651573521339" duration="2911000" />
     </task>
     <task id="LOCAL-00012" summary="styling the menu page">
       <created>1650198542493</created>
@@ -423,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651499923082</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="setting app file 3">
+      <created>1651581154913</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1651581154913</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +440,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="creating Header, Balance and IncomeExpense component" />
     <MESSAGE value="rendering components and test them" />
     <MESSAGE value="creating global provider and app reducer" />
     <MESSAGE value="styling the app" />
@@ -467,6 +464,7 @@
     <MESSAGE value="refactoring some files" />
     <MESSAGE value="setting app file 1" />
     <MESSAGE value="setting app file 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="setting app file 2" />
+    <MESSAGE value="setting app file 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting app file 3" />
   </component>
 </project>
