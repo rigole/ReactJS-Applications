@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="styling the main app">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="fixing color issues">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pomorodo-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/pomorodo-app/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pomorodo-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/pomorodo-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pomorodo-app/src/components/CountDown.js" beforeDir="false" afterPath="$PROJECT_DIR$/pomorodo-app/src/components/CountDown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pomorodo-app/src/components/Pomodoro.js" beforeDir="false" afterPath="$PROJECT_DIR$/pomorodo-app/src/components/Pomodoro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pomorodo-app/src/context/SettingsContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/pomorodo-app/src/context/SettingsContext.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pomorodo-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pomorodo-app/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pomorodo-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pomorodo-app/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,14 +78,9 @@
       <workItem from="1651478149182" duration="12341000" />
       <workItem from="1651573521339" duration="6013000" />
       <workItem from="1651665252092" duration="6031000" />
-      <workItem from="1651758058629" duration="3217000" />
-    </task>
-    <task id="LOCAL-00013" summary="about component">
-      <created>1650370506948</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1650370506948</updated>
+      <workItem from="1651758058629" duration="3485000" />
+      <workItem from="1651761717456" duration="682000" />
+      <workItem from="1651762906123" duration="492000" />
     </task>
     <task id="LOCAL-00014" summary="about component 2">
       <created>1650371135896</created>
@@ -430,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651581455868</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="fixing color issues">
+      <created>1651761573363</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1651761573364</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +444,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="creating global provider and app reducer" />
     <MESSAGE value="styling the app" />
     <MESSAGE value="adding new transaction" />
     <MESSAGE value="balance setting 1" />
@@ -474,6 +468,7 @@
     <MESSAGE value="setting app file 2" />
     <MESSAGE value="setting app file 3" />
     <MESSAGE value="styling the main app" />
-    <option name="LAST_COMMIT_MESSAGE" value="styling the main app" />
+    <MESSAGE value="fixing color issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing color issues" />
   </component>
 </project>
