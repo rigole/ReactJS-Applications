@@ -1,11 +1,21 @@
 import React from "react";
-import {useState, createContext} from 'react';
+import { useState, createContext } from 'react';
 
 export const SettingsContext = createContext();
+
 function SettingsContextProvider(props) {
-    const [pomorodo, setPomorodo] = useState(0);
+    const [pomodoro, setPomodoro] = useState(0);
     const [executing, setExecuting] = useState({});
     const [startAnimate, setStartAnimate] = useState(false);
+
+    function setCurrentTimer(active_state) {
+        updateExecute({
+            ...executing,
+            active: active_state,
+        });
+        setTimerTime(executing);
+    }
+
 
 
     const updateExecute = (updatedSettings) => {
@@ -16,32 +26,23 @@ function SettingsContextProvider(props) {
     const setTimerTime = (evaluate) => {
         switch (evaluate.active) {
             case 'work':
-                setPomorodo(evaluate.work);
+                setPomodoro(evaluate.work);
                 break;
             case 'short':
-                setPomorodo(evaluate.short);
+                setPomodoro(evaluate.short);
                 break;
             case 'long':
-                setPomorodo(evaluate.long);
+                setPomodoro(evaluate.long);
                 break;
             default:
-                setPomorodo(0);
+                setPomodoro(0);
                 break;
         }
     }
 
-    function stopAnimate() {
-        setStartAnimate(false);
-    }
 
 
-    function setCurrentTimer(active_state) {
-        updateExecute({
-            ...executing,
-            active: active_state,
-        })
-        setTimerTime(executing);
-    }
+
 
     //start animation function
     function startTimer() {
@@ -64,19 +65,23 @@ function SettingsContextProvider(props) {
     // clear session storage
     const SettingsBtn = () => {
         setExecuting({});
-        setPomorodo(0)
+        setPomodoro(0)
     }
 
+   /* function stopAnimate() {
 
+    }*/
 
-
+    const stopAnimate = () => {
+        setStartAnimate(false);
+    }
 
 
 
     return (
         <SettingsContext.Provider
             value={{
-                pomorodo,
+                pomodoro,
                 executing,
                 updateExecute,
                 startAnimate,
@@ -91,4 +96,4 @@ function SettingsContextProvider(props) {
         </SettingsContext.Provider>
     )
 }
-export default SettingsContext
+export default SettingsContextProvider;

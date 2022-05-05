@@ -1,6 +1,7 @@
-import React, {useContext, useState} from "react";
+import React, { useContext, useState } from "react";
+import  { SettingsContext } from "../context/SettingsContext";
 
-function Pomodoro() {
+const  Pomodoro = () => {
 
     const [newTimer, setNewTimer] = useState({
         work: 0.2,
