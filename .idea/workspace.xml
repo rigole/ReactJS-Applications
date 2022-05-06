@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="setting the style of the main app">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="testing the main interface">
       <change afterPath="$PROJECT_DIR$/chat-app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-app/src/components/ChatFeed.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chat-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/src/App.js" afterDir="false" />
     </list>
@@ -83,14 +84,7 @@
       <workItem from="1651758058629" duration="3485000" />
       <workItem from="1651761717456" duration="682000" />
       <workItem from="1651762906123" duration="2538000" />
-      <workItem from="1651822459768" duration="5518000" />
-    </task>
-    <task id="LOCAL-00017" summary="contact page and its style 2">
-      <created>1650375040565</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1650375040565</updated>
+      <workItem from="1651822459768" duration="8578000" />
     </task>
     <task id="LOCAL-00018" summary="contact page and its style 3">
       <created>1650376825313</created>
@@ -428,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651836201409</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="testing the main interface">
+      <created>1651837331967</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1651837331967</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +448,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="balance setting 1" />
     <MESSAGE value="balance setting 2" />
     <MESSAGE value="balance setting 3" />
     <MESSAGE value="setting the globalState 1" />
@@ -472,6 +472,7 @@
     <MESSAGE value="fixing color issues" />
     <MESSAGE value="new application the chat app" />
     <MESSAGE value="setting the style of the main app" />
-    <option name="LAST_COMMIT_MESSAGE" value="setting the style of the main app" />
+    <MESSAGE value="testing the main interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing the main interface" />
   </component>
 </project>
