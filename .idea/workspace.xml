@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="new application the chat app">
+      <change afterPath="$PROJECT_DIR$/chat-app/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,14 +86,7 @@
       <workItem from="1651758058629" duration="3485000" />
       <workItem from="1651761717456" duration="682000" />
       <workItem from="1651762906123" duration="2538000" />
-      <workItem from="1651822459768" duration="858000" />
-    </task>
-    <task id="LOCAL-00015" summary="About page style">
-      <created>1650372842405</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1650372842405</updated>
+      <workItem from="1651822459768" duration="4113000" />
     </task>
     <task id="LOCAL-00016" summary="contact page and its style 1">
       <created>1650374220669</created>
@@ -426,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651763581602</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="new application the chat app">
+      <created>1651823855645</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1651823855646</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
