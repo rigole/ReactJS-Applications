@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="fixing color issues">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="new application the chat app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,14 +80,8 @@
       <workItem from="1651665252092" duration="6031000" />
       <workItem from="1651758058629" duration="3485000" />
       <workItem from="1651761717456" duration="682000" />
-      <workItem from="1651762906123" duration="492000" />
-    </task>
-    <task id="LOCAL-00014" summary="about component 2">
-      <created>1650371135896</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1650371135896</updated>
+      <workItem from="1651762906123" duration="2538000" />
+      <workItem from="1651822459768" duration="858000" />
     </task>
     <task id="LOCAL-00015" summary="About page style">
       <created>1650372842405</created>
@@ -425,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651761573364</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="new application the chat app">
+      <created>1651763581601</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1651763581602</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,7 +445,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="styling the app" />
     <MESSAGE value="adding new transaction" />
     <MESSAGE value="balance setting 1" />
     <MESSAGE value="balance setting 2" />
@@ -469,6 +469,7 @@
     <MESSAGE value="setting app file 3" />
     <MESSAGE value="styling the main app" />
     <MESSAGE value="fixing color issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing color issues" />
+    <MESSAGE value="new application the chat app" />
+    <option name="LAST_COMMIT_MESSAGE" value="new application the chat app" />
   </component>
 </project>
