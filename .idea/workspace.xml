@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="new application the chat app">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="setting the style of the main app">
       <change afterPath="$PROJECT_DIR$/chat-app/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chat-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,14 +83,7 @@
       <workItem from="1651758058629" duration="3485000" />
       <workItem from="1651761717456" duration="682000" />
       <workItem from="1651762906123" duration="2538000" />
-      <workItem from="1651822459768" duration="4113000" />
-    </task>
-    <task id="LOCAL-00016" summary="contact page and its style 1">
-      <created>1650374220669</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1650374220669</updated>
+      <workItem from="1651822459768" duration="5518000" />
     </task>
     <task id="LOCAL-00017" summary="contact page and its style 2">
       <created>1650375040565</created>
@@ -431,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651823855646</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="setting the style of the main app">
+      <created>1651836201409</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1651836201409</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +447,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="adding new transaction" />
     <MESSAGE value="balance setting 1" />
     <MESSAGE value="balance setting 2" />
     <MESSAGE value="balance setting 3" />
@@ -475,6 +471,7 @@
     <MESSAGE value="styling the main app" />
     <MESSAGE value="fixing color issues" />
     <MESSAGE value="new application the chat app" />
-    <option name="LAST_COMMIT_MESSAGE" value="new application the chat app" />
+    <MESSAGE value="setting the style of the main app" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting the style of the main app" />
   </component>
 </project>
