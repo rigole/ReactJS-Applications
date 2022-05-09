@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="setting those needed components">
-      <change afterPath="$PROJECT_DIR$/chat-app/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-app/src/components/ChatFeed.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/src/components/ChatFeed.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-app/src/components/MessageForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/src/components/MessageForm.jsx" afterDir="false" />
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="MyMessage Component 1">
       <change beforePath="$PROJECT_DIR$/chat-app/src/components/MyMessage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/src/components/MyMessage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,14 +82,7 @@
       <workItem from="1651761717456" duration="682000" />
       <workItem from="1651762906123" duration="2538000" />
       <workItem from="1651822459768" duration="13134000" />
-      <workItem from="1652025745327" duration="4782000" />
-    </task>
-    <task id="LOCAL-00020" summary="the second project: component Search and style 1">
-      <created>1650443950985</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1650443950985</updated>
+      <workItem from="1652025745327" duration="5245000" />
     </task>
     <task id="LOCAL-00021" summary="the second project: component Search and style 2">
       <created>1650446429201</created>
@@ -432,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651843918699</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="MyMessage Component 1">
+      <created>1652085731128</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1652085731129</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +446,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="setting the globalState 1" />
     <MESSAGE value="setting the globalState 2 and fixing bug on incomeExpenses" />
     <MESSAGE value="setting the globalState 3" />
     <MESSAGE value="fixing the GlobalSate problem and css" />
@@ -476,6 +470,7 @@
     <MESSAGE value="testing the main interface" />
     <MESSAGE value="creating the needed components" />
     <MESSAGE value="setting those needed components" />
-    <option name="LAST_COMMIT_MESSAGE" value="setting those needed components" />
+    <MESSAGE value="MyMessage Component 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyMessage Component 1" />
   </component>
 </project>
