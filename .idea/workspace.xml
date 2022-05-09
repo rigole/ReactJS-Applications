@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="creating the needed components">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="setting those needed components">
       <change afterPath="$PROJECT_DIR$/chat-app/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/src/components/ChatFeed.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/src/components/ChatFeed.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chat-app/src/components/MessageForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/src/components/MessageForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-app/src/components/TheirMessage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/src/components/TheirMessage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/src/components/MyMessage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/src/components/MyMessage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,14 +86,8 @@
       <workItem from="1651758058629" duration="3485000" />
       <workItem from="1651761717456" duration="682000" />
       <workItem from="1651762906123" duration="2538000" />
-      <workItem from="1651822459768" duration="10926000" />
-    </task>
-    <task id="LOCAL-00019" summary="creating the second project. A weather App">
-      <created>1650440223147</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1650440223147</updated>
+      <workItem from="1651822459768" duration="13134000" />
+      <workItem from="1652025745327" duration="4782000" />
     </task>
     <task id="LOCAL-00020" summary="the second project: component Search and style 1">
       <created>1650443950985</created>
@@ -429,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651840775048</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="setting those needed components">
+      <created>1651843918699</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1651843918699</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +451,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="balance setting 3" />
     <MESSAGE value="setting the globalState 1" />
     <MESSAGE value="setting the globalState 2 and fixing bug on incomeExpenses" />
     <MESSAGE value="setting the globalState 3" />
@@ -473,6 +475,7 @@
     <MESSAGE value="setting the style of the main app" />
     <MESSAGE value="testing the main interface" />
     <MESSAGE value="creating the needed components" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating the needed components" />
+    <MESSAGE value="setting those needed components" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting those needed components" />
   </component>
 </project>

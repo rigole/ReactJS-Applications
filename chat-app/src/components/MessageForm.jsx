@@ -1,4 +1,4 @@
-const MyMessage = () => {
+const MessageForm = () => {
     return (
         <div>
             My Message
@@ -6,4 +6,4 @@ const MyMessage = () => {
     )
 }
 
-export default MyMessage
+export default MessageForm
