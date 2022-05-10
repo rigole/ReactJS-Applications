@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="setting MessageForm component 1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-app/src/components/MessageForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/src/components/MessageForm.jsx" afterDir="false" />
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="setting MessageForm component 2">
+      <change afterPath="$PROJECT_DIR$/chat-app/src/components/LoginForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,14 +84,7 @@
       <workItem from="1651762906123" duration="2538000" />
       <workItem from="1651822459768" duration="13134000" />
       <workItem from="1652025745327" duration="9593000" />
-      <workItem from="1652165703072" duration="3208000" />
-    </task>
-    <task id="LOCAL-00025" summary="creating the weather components and rendering it in the Search page">
-      <created>1650453491898</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1650453491898</updated>
+      <workItem from="1652165703072" duration="3507000" />
     </task>
     <task id="LOCAL-00026" summary="weather component rendering 2">
       <created>1650454548176</created>
@@ -429,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652167856764</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="setting MessageForm component 2">
+      <created>1652169033205</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1652169033205</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +448,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="creating the button component which is set to be used many times" />
     <MESSAGE value="styling the button and adding the counter" />
     <MESSAGE value="creating Pomorodo component" />
     <MESSAGE value="adding some style" />
@@ -473,6 +472,7 @@
     <MESSAGE value="TheirMessage component" />
     <MESSAGE value="creating the function renderReadReceipts in ChatFeed components" />
     <MESSAGE value="setting MessageForm component 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="setting MessageForm component 1" />
+    <MESSAGE value="setting MessageForm component 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting MessageForm component 2" />
   </component>
 </project>
