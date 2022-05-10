@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="creating the handleSubmit function for login">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="creating the handleSubmit function for login 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-app/src/components/LoginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/src/components/LoginForm.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,14 +83,7 @@
       <workItem from="1651762906123" duration="2538000" />
       <workItem from="1651822459768" duration="13134000" />
       <workItem from="1652025745327" duration="9593000" />
-      <workItem from="1652165703072" duration="8957000" />
-    </task>
-    <task id="LOCAL-00029" summary="adding speed, pressure, humidity 2">
-      <created>1650458051932</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1650458051932</updated>
+      <workItem from="1652165703072" duration="10089000" />
     </task>
     <task id="LOCAL-00030" summary="fetching data from an API">
       <created>1650467533855</created>
@@ -431,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652173672406</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="creating the handleSubmit function for login 2">
+      <created>1652175592356</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1652175592356</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +447,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="creating function for pomorodo" />
     <MESSAGE value="ending to set the pomorodo component" />
     <MESSAGE value="creating and setting the countdown component" />
     <MESSAGE value="setting the context 1" />
@@ -475,6 +471,7 @@
     <MESSAGE value="creating the LoginForm component 1" />
     <MESSAGE value="creating the LoginForm component 2" />
     <MESSAGE value="creating the handleSubmit function for login" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating the handleSubmit function for login" />
+    <MESSAGE value="creating the handleSubmit function for login 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating the handleSubmit function for login 2" />
   </component>
 </project>
