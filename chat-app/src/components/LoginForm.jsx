@@ -34,7 +34,7 @@ const LoginForm = () => {
                 <form onSubmit={handleSubmit}>
                     <input
                         type="text"
-                        value={}
+                        value={username}
                         onChange={ (e) => setUsername(e.target.value)}
                         className="input"
                         placeholder="Username"
@@ -42,7 +42,7 @@ const LoginForm = () => {
                     />
                     <input
                         type="password"
-                        value={}
+                        value={password}
                         onChange={ (e) => setPassword(e.target.value)}
                         className="input"
                         placeholder="Password"
@@ -50,7 +50,7 @@ const LoginForm = () => {
                     />
                     <div align="center">
                         <button className="button">
-                            <span>Start Chatting</span>
+                            <span>Start Chating</span>
                         </button>
                     </div>
                 </form>
@@ -59,3 +59,4 @@ const LoginForm = () => {
          </div>
     )
 }
+export default LoginForm
