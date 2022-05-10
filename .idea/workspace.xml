@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="MyMessage Component 2">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="TheirMessage component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-app/src/components/TheirMessage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/src/components/TheirMessage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/src/components/ChatFeed.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/src/components/ChatFeed.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,14 +83,8 @@
       <workItem from="1651761717456" duration="682000" />
       <workItem from="1651762906123" duration="2538000" />
       <workItem from="1651822459768" duration="13134000" />
-      <workItem from="1652025745327" duration="8229000" />
-    </task>
-    <task id="LOCAL-00022" summary="the second project: component Search and style 3">
-      <created>1650447283853</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1650447283853</updated>
+      <workItem from="1652025745327" duration="9593000" />
+      <workItem from="1652165703072" duration="935000" />
     </task>
     <task id="LOCAL-00023" summary="the second project: component Search and style 4">
       <created>1650447484973</created>
@@ -428,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652086129893</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="TheirMessage component">
+      <created>1652089145876</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1652089145876</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +448,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="setting the globalState 3" />
     <MESSAGE value="fixing the GlobalSate problem and css" />
     <MESSAGE value="new app pomorodo-app" />
     <MESSAGE value="creating the button component which is set to be used many times" />
@@ -472,6 +472,7 @@
     <MESSAGE value="setting those needed components" />
     <MESSAGE value="MyMessage Component 1" />
     <MESSAGE value="MyMessage Component 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="MyMessage Component 2" />
+    <MESSAGE value="TheirMessage component" />
+    <option name="LAST_COMMIT_MESSAGE" value="TheirMessage component" />
   </component>
 </project>
