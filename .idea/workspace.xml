@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="TheirMessage component">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="creating the function renderReadReceipts in ChatFeed components">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-app/src/components/ChatFeed.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/src/components/ChatFeed.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/src/components/MessageForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/src/components/MessageForm.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,14 +84,7 @@
       <workItem from="1651762906123" duration="2538000" />
       <workItem from="1651822459768" duration="13134000" />
       <workItem from="1652025745327" duration="9593000" />
-      <workItem from="1652165703072" duration="935000" />
-    </task>
-    <task id="LOCAL-00023" summary="the second project: component Search and style 4">
-      <created>1650447484973</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1650447484973</updated>
+      <workItem from="1652165703072" duration="2087000" />
     </task>
     <task id="LOCAL-00024" summary="search component">
       <created>1650451810568</created>
@@ -429,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652089145876</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="creating the function renderReadReceipts in ChatFeed components">
+      <created>1652166736078</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1652166736078</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +448,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fixing the GlobalSate problem and css" />
     <MESSAGE value="new app pomorodo-app" />
     <MESSAGE value="creating the button component which is set to be used many times" />
     <MESSAGE value="styling the button and adding the counter" />
@@ -473,6 +472,7 @@
     <MESSAGE value="MyMessage Component 1" />
     <MESSAGE value="MyMessage Component 2" />
     <MESSAGE value="TheirMessage component" />
-    <option name="LAST_COMMIT_MESSAGE" value="TheirMessage component" />
+    <MESSAGE value="creating the function renderReadReceipts in ChatFeed components" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating the function renderReadReceipts in ChatFeed components" />
   </component>
 </project>
