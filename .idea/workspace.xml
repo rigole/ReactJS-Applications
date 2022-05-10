@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="creating the handleSubmit function for login 2">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="New project Search Engine">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -447,7 +448,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ending to set the pomorodo component" />
     <MESSAGE value="creating and setting the countdown component" />
     <MESSAGE value="setting the context 1" />
     <MESSAGE value="setting the context 2" />
@@ -472,6 +472,7 @@
     <MESSAGE value="creating the LoginForm component 2" />
     <MESSAGE value="creating the handleSubmit function for login" />
     <MESSAGE value="creating the handleSubmit function for login 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating the handleSubmit function for login 2" />
+    <MESSAGE value="New project Search Engine" />
+    <option name="LAST_COMMIT_MESSAGE" value="New project Search Engine" />
   </component>
 </project>
