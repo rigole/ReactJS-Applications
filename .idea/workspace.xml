@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="New project Search Engine">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="New project Search Engine 2">
+      <change afterPath="$PROJECT_DIR$/search-engine-app/craco.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search-engine-app/tailwind.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-engine-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-engine-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-engine-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-engine-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-engine-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,20 +93,8 @@
       <workItem from="1651822459768" duration="13134000" />
       <workItem from="1652025745327" duration="9593000" />
       <workItem from="1652165703072" duration="10089000" />
-    </task>
-    <task id="LOCAL-00030" summary="fetching data from an API">
-      <created>1650467533855</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1650467533855</updated>
-    </task>
-    <task id="LOCAL-00031" summary="fetching data from an API 2">
-      <created>1650468806369</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1650468806369</updated>
+      <workItem from="1652177078665" duration="402000" />
+      <workItem from="1652265132939" duration="4084000" />
     </task>
     <task id="LOCAL-00032" summary="changing metrics">
       <created>1650573231775</created>
@@ -429,7 +425,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652175592356</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="New project Search Engine">
+      <created>1652177321048</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1652177321049</updated>
+    </task>
+    <task id="LOCAL-00080" summary="New project Search Engine 2">
+      <created>1652177414246</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1652177414246</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +458,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="creating and setting the countdown component" />
     <MESSAGE value="setting the context 1" />
     <MESSAGE value="setting the context 2" />
     <MESSAGE value="refactoring some files" />
@@ -473,6 +482,7 @@
     <MESSAGE value="creating the handleSubmit function for login" />
     <MESSAGE value="creating the handleSubmit function for login 2" />
     <MESSAGE value="New project Search Engine" />
-    <option name="LAST_COMMIT_MESSAGE" value="New project Search Engine" />
+    <MESSAGE value="New project Search Engine 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="New project Search Engine 2" />
   </component>
 </project>
