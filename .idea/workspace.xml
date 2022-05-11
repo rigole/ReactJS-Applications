@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="adding craco and tailwindcss">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="NavBar components 2">
+      <change afterPath="$PROJECT_DIR$/search-engine-app/src/components/Search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-engine-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-engine-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-engine-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,21 +87,7 @@
       <workItem from="1652025745327" duration="9593000" />
       <workItem from="1652165703072" duration="10089000" />
       <workItem from="1652177078665" duration="402000" />
-      <workItem from="1652265132939" duration="6279000" />
-    </task>
-    <task id="LOCAL-00033" summary="fixing the api call to change icon according to the time">
-      <created>1650728844030</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1650728844030</updated>
-    </task>
-    <task id="LOCAL-00034" summary="creating and setting the third project expense-tracker">
-      <created>1650792169142</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1650792169142</updated>
+      <workItem from="1652265132939" duration="7759000" />
     </task>
     <task id="LOCAL-00035" summary="creating Header, Balance and IncomeExpense component">
       <created>1650794428994</created>
@@ -432,7 +418,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652270118112</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="NavBar components">
+      <created>1652272434487</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1652272434487</updated>
+    </task>
+    <task id="LOCAL-00083" summary="NavBar components 2">
+      <created>1652272451293</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1652272451293</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,8 +451,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="setting the context 2" />
-    <MESSAGE value="refactoring some files" />
     <MESSAGE value="setting app file 1" />
     <MESSAGE value="setting app file 2" />
     <MESSAGE value="setting app file 3" />
@@ -476,6 +474,8 @@
     <MESSAGE value="New project Search Engine" />
     <MESSAGE value="New project Search Engine 2" />
     <MESSAGE value="adding craco and tailwindcss" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding craco and tailwindcss" />
+    <MESSAGE value="NavBar components" />
+    <MESSAGE value="NavBar components 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="NavBar components 2" />
   </component>
 </project>
