@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="component search and debounce and use-debounce">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="component search 2">
+      <change afterPath="$PROJECT_DIR$/search-engine-app/src/components/Links.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-engine-app/src/components/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/components/Search.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,14 +86,7 @@
       <workItem from="1652025745327" duration="9593000" />
       <workItem from="1652165703072" duration="10089000" />
       <workItem from="1652177078665" duration="402000" />
-      <workItem from="1652265132939" duration="10800000" />
-    </task>
-    <task id="LOCAL-00036" summary="rendering components and test them">
-      <created>1650870948771</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1650870948771</updated>
+      <workItem from="1652265132939" duration="12462000" />
     </task>
     <task id="LOCAL-00037" summary="creating global provider and app reducer">
       <created>1650873242237</created>
@@ -431,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652273917017</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="component search 2">
+      <created>1652276801622</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1652276801622</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +450,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="setting app file 2" />
     <MESSAGE value="setting app file 3" />
     <MESSAGE value="styling the main app" />
     <MESSAGE value="fixing color issues" />
@@ -475,6 +474,7 @@
     <MESSAGE value="NavBar components" />
     <MESSAGE value="NavBar components 2" />
     <MESSAGE value="component search and debounce and use-debounce" />
-    <option name="LAST_COMMIT_MESSAGE" value="component search and debounce and use-debounce" />
+    <MESSAGE value="component search 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="component search 2" />
   </component>
 </project>
