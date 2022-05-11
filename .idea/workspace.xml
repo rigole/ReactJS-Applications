@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="New project Search Engine 2">
-      <change afterPath="$PROJECT_DIR$/search-engine-app/craco.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search-engine-app/tailwind.config.js" afterDir="false" />
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="adding craco and tailwindcss">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/search-engine-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/search-engine-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-engine-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-engine-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-engine-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,14 +87,7 @@
       <workItem from="1652025745327" duration="9593000" />
       <workItem from="1652165703072" duration="10089000" />
       <workItem from="1652177078665" duration="402000" />
-      <workItem from="1652265132939" duration="4084000" />
-    </task>
-    <task id="LOCAL-00032" summary="changing metrics">
-      <created>1650573231775</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1650573231775</updated>
+      <workItem from="1652265132939" duration="6279000" />
     </task>
     <task id="LOCAL-00033" summary="fixing the api call to change icon according to the time">
       <created>1650728844030</created>
@@ -439,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652177414246</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="adding craco and tailwindcss">
+      <created>1652270118111</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1652270118112</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +451,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="setting the context 1" />
     <MESSAGE value="setting the context 2" />
     <MESSAGE value="refactoring some files" />
     <MESSAGE value="setting app file 1" />
@@ -483,6 +475,7 @@
     <MESSAGE value="creating the handleSubmit function for login 2" />
     <MESSAGE value="New project Search Engine" />
     <MESSAGE value="New project Search Engine 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="New project Search Engine 2" />
+    <MESSAGE value="adding craco and tailwindcss" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding craco and tailwindcss" />
   </component>
 </project>
