@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="creating and setting the Link component">
-      <change afterPath="$PROJECT_DIR$/search-engine-app/src/components/Loading.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-engine-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-engine-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-engine-app/src/components/Links.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/components/Links.js" afterDir="false" />
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="Link setting and creating the Loading react and adding its package">
+      <change afterPath="$PROJECT_DIR$/search-engine-app/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-engine-app/src/components/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/components/Search.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,14 +88,7 @@
       <workItem from="1652177078665" duration="402000" />
       <workItem from="1652265132939" duration="12835000" />
       <workItem from="1652387864226" duration="67000" />
-      <workItem from="1652434404649" duration="1659000" />
-    </task>
-    <task id="LOCAL-00038" summary="styling the app">
-      <created>1650887973852</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1650887973852</updated>
+      <workItem from="1652434404649" duration="3810000" />
     </task>
     <task id="LOCAL-00039" summary="adding new transaction">
       <created>1651053611292</created>
@@ -436,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652278887561</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Link setting and creating the Loading react and adding its package">
+      <created>1652436152196</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1652436152197</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +452,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="styling the main app" />
     <MESSAGE value="fixing color issues" />
     <MESSAGE value="new application the chat app" />
     <MESSAGE value="setting the style of the main app" />
@@ -480,6 +476,7 @@
     <MESSAGE value="component search and debounce and use-debounce" />
     <MESSAGE value="component search 2" />
     <MESSAGE value="creating and setting the Link component" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating and setting the Link component" />
+    <MESSAGE value="Link setting and creating the Loading react and adding its package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Link setting and creating the Loading react and adding its package" />
   </component>
 </project>
