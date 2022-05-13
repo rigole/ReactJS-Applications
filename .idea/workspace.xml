@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="Link setting and creating the Loading react and adding its package">
-      <change afterPath="$PROJECT_DIR$/search-engine-app/src/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-engine-app/src/components/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/components/Search.js" afterDir="false" />
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="Link in search and Loading + Footer components">
+      <change afterPath="$PROJECT_DIR$/search-engine-app/contexts/StateContextProvider.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,14 +87,7 @@
       <workItem from="1652177078665" duration="402000" />
       <workItem from="1652265132939" duration="12835000" />
       <workItem from="1652387864226" duration="67000" />
-      <workItem from="1652434404649" duration="3810000" />
-    </task>
-    <task id="LOCAL-00039" summary="adding new transaction">
-      <created>1651053611292</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1651053611292</updated>
+      <workItem from="1652434404649" duration="7707000" />
     </task>
     <task id="LOCAL-00040" summary="balance setting 1">
       <created>1651056134072</created>
@@ -433,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652436152197</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="Link in search and Loading + Footer components">
+      <created>1652438280344</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1652438280344</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +451,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fixing color issues" />
     <MESSAGE value="new application the chat app" />
     <MESSAGE value="setting the style of the main app" />
     <MESSAGE value="testing the main interface" />
@@ -477,6 +475,7 @@
     <MESSAGE value="component search 2" />
     <MESSAGE value="creating and setting the Link component" />
     <MESSAGE value="Link setting and creating the Loading react and adding its package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Link setting and creating the Loading react and adding its package" />
+    <MESSAGE value="Link in search and Loading + Footer components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Link in search and Loading + Footer components" />
   </component>
 </project>
