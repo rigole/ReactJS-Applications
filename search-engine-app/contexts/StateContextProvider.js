@@ -14,7 +14,7 @@ function StateContextProvider(){
         const res = await fetch( `${baseUrl}${url}`,{
             headers: {
                 'X-RapidAPI-Host': 'google-search1.p.rapidapi.com',
-                'X-RapidAPI-Key': 'SIGN-UP-FOR-KEY'
+                'X-RapidAPI-Key': '765af5fc24msh0d655c41dff9288p173ab5jsnb2a702e97743'
             },
         });
 
