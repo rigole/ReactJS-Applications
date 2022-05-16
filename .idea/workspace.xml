@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="setting the return block for the images case">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-engine-app/src/components/Results.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/components/Results.js" afterDir="false" />
-    </list>
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="setting the return block for the video case" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,14 +88,7 @@
       <workItem from="1652434404649" duration="8396000" />
       <workItem from="1652561748662" duration="250000" />
       <workItem from="1652628539175" duration="4165000" />
-      <workItem from="1652685653797" duration="6589000" />
-    </task>
-    <task id="LOCAL-00043" summary="setting the globalState 1">
-      <created>1651133816001</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1651133816001</updated>
+      <workItem from="1652685653797" duration="6928000" />
     </task>
     <task id="LOCAL-00044" summary="setting the globalState 2 and fixing bug on incomeExpenses">
       <created>1651135681612</created>
@@ -436,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652692690148</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="setting the return block for the video case">
+      <created>1652697315423</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1652697315424</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +452,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="setting those needed components" />
     <MESSAGE value="MyMessage Component 1" />
     <MESSAGE value="MyMessage Component 2" />
     <MESSAGE value="TheirMessage component" />
@@ -480,6 +476,7 @@
     <MESSAGE value="adding the API key and search" />
     <MESSAGE value="setting the return blog for the search case" />
     <MESSAGE value="setting the return block for the images case" />
-    <option name="LAST_COMMIT_MESSAGE" value="setting the return block for the images case" />
+    <MESSAGE value="setting the return block for the video case" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting the return block for the video case" />
   </component>
 </project>
