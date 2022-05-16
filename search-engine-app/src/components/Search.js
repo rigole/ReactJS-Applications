@@ -1,9 +1,10 @@
 import React, {useState, useEffect} from 'react';
 import {useDebounce} from "use-debounce";
+import {  useStateContext } from "../contexts/StateContextProvider";
 import  Links  from './Links';
 
 function Search() {
-    const[setSearchTerm] = useState()
+    const {setSearchTerm} = useStateContext()
     const [text, setText] = useState("Cameroon");
     const [debounceValue] = useDebounce(text, 300)
 

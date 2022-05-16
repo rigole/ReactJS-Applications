@@ -1,30 +1,23 @@
 import React from 'react'
-import {Switch, Route, Redirect} from "react-router-dom";
+import {Switch, Route, Routes, Link} from "react-router-dom";
 
-import {Results} from './Results'
+import Results from './Results'
+import Search from "./Search";
 
-function Routes(){
+
+function Routs(){
     return (
         <div>
-            <Switch>
-                <Route exact path="/">
-                    <Redirect to ="/search"/>
-                </Route>
-                <Route exact path="/search">
-                    <Results />
-                </Route>
-                <Route exact path="/images">
-                    <Results />
-                </Route>
-                <Route exact path="/news">
-                    <Results />
-                </Route>
-                <Route exact path="/videos">
-                    <Results />
-                </Route>
-            </Switch>
+                <Routes>
+                    <Route exact path="/"  element={<Search/>}/>
+                    <Route exact path="/search" element={<Results/>}/>
+                    <Route exact path="/images"  element={<Results/>}/>
+                    <Route exact path="/news" element={<Results/>}/>
+                    <Route exact path="/videos" element={<Results/>}/>
+                </Routes>
         </div>
     )
+
 }
 
-export default Routes
+export default Routs
