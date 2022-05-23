@@ -5,14 +5,14 @@ import ReactPlayer from "react-player";
 import{useStateContext} from "../contexts/StateContextProvider";
 import Loading from './Loading'
 
-function Results(){
-    const {results, loading, getResults, searchTerm} = useStateContext();
+export const  Results = () => {
+    const { results, loading, getResults, searchTerm } = useStateContext();
     const location = useLocation();
 
     useEffect(() => {
         if(searchTerm !== ""){
             if (location.pathname === './videos'){
-                getResults(`/search/q${searchTerm} videos`)
+                getResults(`/search/q=${searchTerm} videos`)
             }else {
                 getResults(`${location.pathname}/q=${searchTerm}&num=40`)
             }

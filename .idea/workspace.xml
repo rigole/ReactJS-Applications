@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="Setting the app for rendering the navbar and navbar">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="commiting the file final page but it still need some styling">
+      <change afterPath="$PROJECT_DIR$/search-engine-app/src/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-engine-app/contexts/StateContextProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/contexts/StateContextProvider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-engine-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-engine-app/src/components/Loading.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/components/Loading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-engine-app/src/components/Links.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/components/Links.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/search-engine-app/src/components/Results.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/components/Results.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/search-engine-app/src/components/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/components/Routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-engine-app/src/components/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/components/Search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-engine-app/src/index.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/search-engine-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -97,14 +98,13 @@
       <workItem from="1652434404649" duration="8396000" />
       <workItem from="1652561748662" duration="250000" />
       <workItem from="1652628539175" duration="4165000" />
-      <workItem from="1652685653797" duration="14853000" />
-    </task>
-    <task id="LOCAL-00047" summary="new app pomorodo-app">
-      <created>1651243146050</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1651243146050</updated>
+      <workItem from="1652685653797" duration="15552000" />
+      <workItem from="1652794848205" duration="369000" />
+      <workItem from="1652966055426" duration="190000" />
+      <workItem from="1652970843195" duration="3743000" />
+      <workItem from="1653027668443" duration="7161000" />
+      <workItem from="1653122151095" duration="245000" />
+      <workItem from="1653339998993" duration="2482000" />
     </task>
     <task id="LOCAL-00048" summary="creating the button component which is set to be used many times">
       <created>1651307390281</created>
@@ -442,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652699177249</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="commiting the file final page but it still need some styling">
+      <created>1652705685728</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1652705685729</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +468,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="TheirMessage component" />
     <MESSAGE value="creating the function renderReadReceipts in ChatFeed components" />
     <MESSAGE value="setting MessageForm component 1" />
     <MESSAGE value="setting MessageForm component 2" />
@@ -486,6 +492,7 @@
     <MESSAGE value="setting the return block for the video case" />
     <MESSAGE value="creating the routes components" />
     <MESSAGE value="Setting the app for rendering the navbar and navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting the app for rendering the navbar and navbar" />
+    <MESSAGE value="commiting the file final page but it still need some styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="commiting the file final page but it still need some styling" />
   </component>
 </project>
