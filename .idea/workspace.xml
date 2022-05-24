@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="global css and fixing some bugs">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="resetting the API keys and some locations">
+      <change afterPath="$PROJECT_DIR$/password-generator/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/password-generator/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/password-generator/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/password-generator/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/password-generator/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/password-generator/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/password-generator/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/password-generator/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/password-generator/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/password-generator/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/password-generator/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/password-generator/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/password-generator/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/password-generator/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/password-generator/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/password-generator/src/setupTests.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-engine-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-engine-app/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-engine-app/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/components/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-engine-app/src/components/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/components/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-engine-app/src/components/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/components/Search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-engine-app/src/contexts/StateContextProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/contexts/StateContextProvider.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,14 +114,8 @@
       <workItem from="1653027668443" duration="7161000" />
       <workItem from="1653122151095" duration="245000" />
       <workItem from="1653339998993" duration="2613000" />
-      <workItem from="1653377347999" duration="3943000" />
-    </task>
-    <task id="LOCAL-00049" summary="styling the button and adding the counter">
-      <created>1651308772860</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1651308772860</updated>
+      <workItem from="1653377347999" duration="6629000" />
+      <workItem from="1653386121085" duration="232000" />
     </task>
     <task id="LOCAL-00050" summary="creating Pomorodo component">
       <created>1651309587083</created>
@@ -449,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653342596853</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="resetting the API keys and some locations">
+      <created>1653381607812</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1653381607812</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,7 +479,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="setting MessageForm component 1" />
     <MESSAGE value="setting MessageForm component 2" />
     <MESSAGE value="creating the LoginForm component 1" />
     <MESSAGE value="creating the LoginForm component 2" />
@@ -493,6 +503,7 @@
     <MESSAGE value="Setting the app for rendering the navbar and navbar" />
     <MESSAGE value="commiting the file final page but it still need some styling" />
     <MESSAGE value="global css and fixing some bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="global css and fixing some bugs" />
+    <MESSAGE value="resetting the API keys and some locations" />
+    <option name="LAST_COMMIT_MESSAGE" value="resetting the API keys and some locations" />
   </component>
 </project>
