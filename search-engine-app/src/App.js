@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import  Navbar  from "./components/Navbar";
-import  Footer   from "./components/Footer";
-import  Routs   from "./components/Routes"
+import { Navbar }   from "./components/Navbar";
+import { Footer }    from "./components/Footer";
+import  { Routs }    from "./components/Routes"
 import './App.css';
 
 function App() {

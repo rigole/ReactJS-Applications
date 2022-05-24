@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="commiting the file final page but it still need some styling">
-      <change afterPath="$PROJECT_DIR$/search-engine-app/src/global.css" afterDir="false" />
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="global css and fixing some bugs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-engine-app/src/components/Links.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/components/Links.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-engine-app/src/components/Results.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/components/Results.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-engine-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-engine-app/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-engine-app/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/components/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/search-engine-app/src/components/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/components/Routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/search-engine-app/src/components/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/components/Search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-engine-app/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-engine-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-engine-app/src/contexts/StateContextProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-app/src/contexts/StateContextProvider.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,14 +103,8 @@
       <workItem from="1652970843195" duration="3743000" />
       <workItem from="1653027668443" duration="7161000" />
       <workItem from="1653122151095" duration="245000" />
-      <workItem from="1653339998993" duration="2482000" />
-    </task>
-    <task id="LOCAL-00048" summary="creating the button component which is set to be used many times">
-      <created>1651307390281</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1651307390281</updated>
+      <workItem from="1653339998993" duration="2613000" />
+      <workItem from="1653377347999" duration="3943000" />
     </task>
     <task id="LOCAL-00049" summary="styling the button and adding the counter">
       <created>1651308772860</created>
@@ -449,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652705685729</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="global css and fixing some bugs">
+      <created>1653342596853</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1653342596853</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,7 +468,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="creating the function renderReadReceipts in ChatFeed components" />
     <MESSAGE value="setting MessageForm component 1" />
     <MESSAGE value="setting MessageForm component 2" />
     <MESSAGE value="creating the LoginForm component 1" />
@@ -493,6 +492,7 @@
     <MESSAGE value="creating the routes components" />
     <MESSAGE value="Setting the app for rendering the navbar and navbar" />
     <MESSAGE value="commiting the file final page but it still need some styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="commiting the file final page but it still need some styling" />
+    <MESSAGE value="global css and fixing some bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="global css and fixing some bugs" />
   </component>
 </project>
