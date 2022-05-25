@@ -1,10 +1,10 @@
-import './App.css';
+import './Styless.scss';
 
 function App() {
   return (
     <div className="container">
       <div className="generator">
-          <h2>Password Generator</h2>
+          <h2 className="generator_header">Password Generator</h2>
         <div className="generator_password">
             <button>Clipboard</button>
         </div>
@@ -47,7 +47,7 @@ function App() {
 
 
           <div className="form-group">
-              <label htmlFor="inclued-symbols">Include Symbols</label>
+              <label htmlFor="inclued-symbols">Include  Symbols</label>
               <input
                   id="inclued-symbols"
                   className="inclued-symbols"

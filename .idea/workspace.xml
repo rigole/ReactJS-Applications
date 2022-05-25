@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="adding toasting and sass">
-      <change afterPath="$PROJECT_DIR$/password-generator/src/Message.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/password-generator/src/Styless.scss" afterDir="false" />
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="setting the app">
+      <change afterPath="$PROJECT_DIR$/password-generator/src/Styless.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/password-generator/src/Styless.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/password-generator/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/password-generator/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/password-generator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/password-generator/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/password-generator/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/password-generator/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/password-generator/src/Styless.scss" beforeDir="false" afterPath="$PROJECT_DIR$/password-generator/src/Styless.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,14 +105,7 @@
       <workItem from="1653339998993" duration="2613000" />
       <workItem from="1653377347999" duration="6629000" />
       <workItem from="1653386121085" duration="1596000" />
-      <workItem from="1653467117026" duration="6310000" />
-    </task>
-    <task id="LOCAL-00053" summary="ending to set the pomorodo component">
-      <created>1651323916993</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1651323916993</updated>
+      <workItem from="1653467117026" duration="8002000" />
     </task>
     <task id="LOCAL-00054" summary="creating and setting the countdown component">
       <created>1651324972114</created>
@@ -451,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653470282213</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="setting the app">
+      <created>1653474001945</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1653474001945</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +469,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="creating the handleSubmit function for login" />
     <MESSAGE value="creating the handleSubmit function for login 2" />
     <MESSAGE value="New project Search Engine" />
     <MESSAGE value="New project Search Engine 2" />
@@ -495,6 +493,7 @@
     <MESSAGE value="password generator app" />
     <MESSAGE value="updating the README" />
     <MESSAGE value="adding toasting and sass" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding toasting and sass" />
+    <MESSAGE value="setting the app" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting the app" />
   </component>
 </project>
