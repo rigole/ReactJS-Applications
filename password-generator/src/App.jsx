@@ -6,7 +6,7 @@ function App() {
       <div className="generator">
           <h2 className="generator_header">Password Generator</h2>
         <div className="generator_password">
-            <button>Clipboard</button>
+            <button className="generator_password_passwordBtn">Clipboard</button>
         </div>
           <div className="form-group">
               <label htmlFor="password-length">Password Length</label>
