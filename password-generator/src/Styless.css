@@ -44,5 +44,33 @@
   right: 2px;
   cursor: pointer;
 }
+.generator_btn {
+  background: #3b3b98;
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 17px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.form-group input[type=number] {
+  width: 40px;
+}
+.form-group:last-of-type {
+  margin-bottom: 25px;
+}
+.form-group label {
+  cursor: pointer;
+  user-select: none;
+}
 
 /*# sourceMappingURL=Styless.css.map */

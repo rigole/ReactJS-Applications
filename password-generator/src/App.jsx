@@ -54,6 +54,7 @@ function App() {
                   type="checkbox"
               />
           </div>
+          <button className="generator_btn">Generate password</button>
       </div>
     </div>
   );
