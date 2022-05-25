@@ -1,12 +1,25 @@
 import './Styless.scss';
+import { useState } from "react";
+import { FaClipboard } from "react-icons/fa";
 
 function App() {
+
+    const [password, setPassword] = useState("")
+    const [passwordLength, setPasswordLength] = useState(20);
+    const [uppercase, setUpperCase] = useState(true);
+    const [lowerCase, setLowerCase] = useState(true);
+    const [numbers, setNumbers] = useState(true);
+    const [symbols, setSymbols] = useState(true);
+
+
   return (
     <div className="container">
       <div className="generator">
           <h2 className="generator_header">Password Generator</h2>
         <div className="generator_password">
-            <button className="generator_password_passwordBtn">Clipboard</button>
+            <button className="generator_password_passwordBtn">
+                <FaClipboard/>
+            </button>
         </div>
           <div className="form-group">
               <label htmlFor="password-length">Password Length</label>
