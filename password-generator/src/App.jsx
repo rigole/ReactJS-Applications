@@ -37,8 +37,17 @@ function App() {
         }
         setPassword(passwordCreator(characters))
     }
-    const passwordCreator = () => {}
-    const generateRandomIndex = () => {}
+    const passwordCreator = (characterList) => {
+        let password = "";
+        const characterListLength = characterList.length;
+        for(let i = 0; i < passwordLength; i++) {
+            const characterIndex = generateRandomIndex(characterListLength);
+            password = password + characterList.charAt(characterIndex)
+        }
+    }
+    const generateRandomIndex = () => {
+
+    }
 
 
 

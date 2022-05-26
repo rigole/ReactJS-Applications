@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="create the functions to create password, generate an index, and handle the generator">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="handleGeneratorPassword method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/password-generator/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/password-generator/src/App.jsx" afterDir="false" />
     </list>
@@ -104,14 +104,7 @@
       <workItem from="1653386121085" duration="1596000" />
       <workItem from="1653467117026" duration="17380000" />
       <workItem from="1653493050907" duration="215000" />
-      <workItem from="1653596062896" duration="2258000" />
-    </task>
-    <task id="LOCAL-00060" summary="setting app file 3">
-      <created>1651581154913</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1651581154913</updated>
+      <workItem from="1653596062896" duration="3503000" />
     </task>
     <task id="LOCAL-00061" summary="styling the main app">
       <created>1651581455864</created>
@@ -449,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653599243577</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="handleGeneratorPassword method">
+      <created>1653600085558</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1653600085559</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,7 +468,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="NavBar components 2" />
     <MESSAGE value="component search and debounce and use-debounce" />
     <MESSAGE value="component search 2" />
     <MESSAGE value="creating and setting the Link component" />
@@ -493,6 +492,7 @@
     <MESSAGE value="adding the style with Sass 3" />
     <MESSAGE value="setting the state and the characters for the password" />
     <MESSAGE value="create the functions to create password, generate an index, and handle the generator" />
-    <option name="LAST_COMMIT_MESSAGE" value="create the functions to create password, generate an index, and handle the generator" />
+    <MESSAGE value="handleGeneratorPassword method" />
+    <option name="LAST_COMMIT_MESSAGE" value="handleGeneratorPassword method" />
   </component>
 </project>
