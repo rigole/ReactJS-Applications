@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="adding the style with Sass 3">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="setting the state and the characters for the password">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/password-generator/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/password-generator/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/password-generator/src/Characters.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/password-generator/src/Characters.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/password-generator/src/Styless.css" beforeDir="false" afterPath="$PROJECT_DIR$/password-generator/src/Styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/password-generator/src/Styless.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/password-generator/src/Styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/password-generator/src/Styless.scss" beforeDir="false" afterPath="$PROJECT_DIR$/password-generator/src/Styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,14 +105,9 @@
       <workItem from="1653339998993" duration="2613000" />
       <workItem from="1653377347999" duration="6629000" />
       <workItem from="1653386121085" duration="1596000" />
-      <workItem from="1653467117026" duration="16340000" />
-    </task>
-    <task id="LOCAL-00057" summary="refactoring some files">
-      <created>1651496370972</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1651496370972</updated>
+      <workItem from="1653467117026" duration="17380000" />
+      <workItem from="1653493050907" duration="215000" />
+      <workItem from="1653596062896" duration="294000" />
     </task>
     <task id="LOCAL-00058" summary="setting app file 1">
       <created>1651496747144</created>
@@ -448,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653481267092</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="setting the state and the characters for the password">
+      <created>1653486258827</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1653486258827</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +471,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="adding craco and tailwindcss" />
     <MESSAGE value="NavBar components" />
     <MESSAGE value="NavBar components 2" />
     <MESSAGE value="component search and debounce and use-debounce" />
@@ -492,6 +495,7 @@
     <MESSAGE value="adding the style with Sass" />
     <MESSAGE value="adding the style with Sass 2" />
     <MESSAGE value="adding the style with Sass 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding the style with Sass 3" />
+    <MESSAGE value="setting the state and the characters for the password" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting the state and the characters for the password" />
   </component>
 </project>
