@@ -1,6 +1,12 @@
 import './Styles.scss';
 import { useState } from "react";
 import { FaClipboard } from "react-icons/fa";
+import {
+    numbers,
+    upperCaseLetters,
+    lowerCaseLetters,
+    specialCharacters
+} from "./Characters";
 
 function App() {
 
@@ -11,9 +17,56 @@ function App() {
     const [numbers, setNumbers] = useState(true);
     const [symbols, setSymbols] = useState(true);
 
-    const handleGeneratorPassword = () => {}
+    const handleGeneratorPassword = () => {
+        if(!uppercase && !lowerCase && !numbers && !symbols) {
+            alert("You must select at least one character type");
+        }
+
+        let characters = "";
+        if(uppercase){
+            characters += upperCaseLetters;
+        }
+        if (lowerCase){
+            characters += lowerCaseLetters;
+        }
+        if(numbers){
+            characters += numbers;
+        }
+        if(symbols){
+            characters += specialCharacters;
+        }
+        setPassword(passwordCreator(characters))
+    }
     const passwordCreator = () => {}
     const generateRandomIndex = () => {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       return (
         <div className="container">
