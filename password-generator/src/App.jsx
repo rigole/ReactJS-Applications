@@ -2,7 +2,7 @@ import './Styles.scss';
 import { useState } from "react";
 import { FaClipboard } from "react-icons/fa";
 import {
-    numbers,
+    includeNumbers,
     upperCaseLetters,
     lowerCaseLetters,
     specialCharacters
@@ -30,13 +30,14 @@ function App() {
             characters += lowerCaseLetters;
         }
         if(numbers){
-            characters += numbers;
+            characters += includeNumbers;
         }
         if(symbols){
             characters += specialCharacters;
         }
         setPassword(passwordCreator(characters))
     }
+
     const passwordCreator = (characterList) => {
         let password = "";
         const characterListLength = characterList.length;
@@ -44,37 +45,11 @@ function App() {
             const characterIndex = generateRandomIndex(characterListLength);
             password = password + characterList.charAt(characterIndex)
         }
+        return password;
     }
-    const generateRandomIndex = () => {
-
+    const generateRandomIndex = (limit) => {
+        return Math.round(Math.random() * limit);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
       return (
@@ -82,6 +57,7 @@ function App() {
           <div className="generator">
               <h2 className="generator_header">Password Generator</h2>
             <div className="generator_password">
+                {password}
                 <button className="generator_password_passwordBtn">
                     <FaClipboard/>
                 </button>
@@ -93,6 +69,8 @@ function App() {
                       id="password-length" type="number"
                       max="20"
                       min="7"
+                      defaultValue={passwordLength}
+                      onChange={(e)=>setPasswordLength(e.target.value)}
                   />
               </div>
 
@@ -102,6 +80,8 @@ function App() {
                       id="uppercase-letters"
                       name="uppercase-letters"
                       type="checkbox"
+                      checked={uppercase}
+                      onChange={(e)=>setUpperCase(e.target.checked)}
                   />
               </div>
 
@@ -111,6 +91,8 @@ function App() {
                     id="lowercase-letters"
                     className="lowercase-letters"
                     type="checkbox"
+                    checked={lowerCase}
+                    onChange={(e)=>setLowerCase(e.target.checked)}
                   />
               </div>
 
@@ -120,6 +102,8 @@ function App() {
                       id="include-numbers"
                       className="include-numbers"
                       type="checkbox"
+                      checked={numbers}
+                      onChange={(e)=>setNumbers(e.target.checked)}
                   />
               </div>
 
@@ -130,9 +114,11 @@ function App() {
                       id="inclued-symbols"
                       className="inclued-symbols"
                       type="checkbox"
+                      checked={symbols}
+                      onChange={(e)=>setSymbols(e.target.checked)}
                   />
               </div>
-              <button className="generator_btn">Generate password</button>
+              <button className="generator_btn" onClick={handleGeneratorPassword}>Generate password</button>
           </div>
         </div>
       );
