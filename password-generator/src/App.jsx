@@ -1,6 +1,8 @@
 import './Styles.scss';
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { FaClipboard } from "react-icons/fa";
+import { toast } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
 import {
     includeNumbers,
     upperCaseLetters,
@@ -8,6 +10,8 @@ import {
     specialCharacters
 } from "./Characters";
 
+
+toast.configure();
 function App() {
 
     const [password, setPassword] = useState("")
@@ -16,10 +20,11 @@ function App() {
     const [lowerCase, setLowerCase] = useState(true);
     const [numbers, setNumbers] = useState(true);
     const [symbols, setSymbols] = useState(true);
+    const copyBtn = useRef();
 
     const handleGeneratorPassword = () => {
         if(!uppercase && !lowerCase && !numbers && !symbols) {
-            alert("You must select at least one character type");
+            notifs("You must select at least one option ", true);
         }
 
         let characters = "";
@@ -51,6 +56,48 @@ function App() {
         return Math.round(Math.random() * limit);
     }
 
+    
+    const copyFromClipboard = () => {
+      const newTextArea = document.createElement("textarea");
+      newTextArea.body.appendChild(newTextArea);
+      newTextArea.select();
+      document.execCommand("copy");
+      newTextArea.remove();
+
+      copyBtn.current.disabled = true;
+      setTimeout(() => {
+        copyBtn.current.disabled = false;
+      }, 3000)
+    };
+
+     const notifs = (message, Error) => {
+         if(Error){
+            toast.error(message, {
+                position:toast.POSITION.TOP_CENTER,
+                autoClose: 5000,
+                hideProgressBar:false,
+                closeOnclick:true,
+                pauseOnHover:true,
+                draggable:true,
+                progress:undefined,
+            });
+         }else{
+             toast.success(message, {
+                position:toast.POSITION.TOP_CENTER,
+                autoClose: 5000,
+                hideProgressBar:false,
+                closeOnclick:true,
+                pauseOnHover:true,
+                draggable:true,
+                progress:undefined,
+            });
+         }
+     }
+
+     const handleCopy = ()=> {
+         copyFromClipboard();
+        notifs("Password copied to clipboard ", false);
+     }
 
       return (
         <div className="container">
@@ -58,7 +105,7 @@ function App() {
               <h2 className="generator_header">Password Generator</h2>
             <div className="generator_password">
                 {password}
-                <button className="generator_password_passwordBtn">
+                <button className="generator_password_passwordBtn" ref={copyBtn} onClick={handleCopy}>
                     <FaClipboard/>
                 </button>
             </div>

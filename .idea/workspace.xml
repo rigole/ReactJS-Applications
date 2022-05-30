@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="generateRandomIndex method">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="testing the project where functionality should be correct">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/password-generator/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/password-generator/src/App.jsx" afterDir="false" />
     </list>
@@ -105,14 +105,8 @@
       <workItem from="1653467117026" duration="17380000" />
       <workItem from="1653493050907" duration="215000" />
       <workItem from="1653596062896" duration="3732000" />
-      <workItem from="1653658165299" duration="3433000" />
-    </task>
-    <task id="LOCAL-00062" summary="fixing color issues">
-      <created>1651761573363</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1651761573364</updated>
+      <workItem from="1653658165299" duration="6165000" />
+      <workItem from="1653916473352" duration="3306000" />
     </task>
     <task id="LOCAL-00063" summary="new application the chat app">
       <created>1651763581601</created>
@@ -450,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653601254949</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="testing the project where functionality should be correct">
+      <created>1653662675562</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1653662675563</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +470,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="component search 2" />
     <MESSAGE value="creating and setting the Link component" />
     <MESSAGE value="Link setting and creating the Loading react and adding its package" />
     <MESSAGE value="Link in search and Loading + Footer components" />
@@ -494,6 +494,7 @@
     <MESSAGE value="create the functions to create password, generate an index, and handle the generator" />
     <MESSAGE value="handleGeneratorPassword method" />
     <MESSAGE value="passwordCreator method" />
-    <option name="LAST_COMMIT_MESSAGE" value="passwordCreator method" />
+    <MESSAGE value="testing the project where functionality should be correct" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing the project where functionality should be correct" />
   </component>
 </project>
