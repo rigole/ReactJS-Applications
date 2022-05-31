@@ -1,7 +1,7 @@
 import './Styles.scss';
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { FaClipboard } from "react-icons/fa";
-import { toast } from 'react-toastify';
+import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import {
     includeNumbers,
@@ -9,22 +9,25 @@ import {
     lowerCaseLetters,
     specialCharacters
 } from "./Characters";
+import {COPY_SUCCESS, ALERT } from "./Message";
 
+//toast.configure();
 
-toast.configure();
 function App() {
-
     const [password, setPassword] = useState("")
     const [passwordLength, setPasswordLength] = useState(20);
     const [uppercase, setUpperCase] = useState(true);
     const [lowerCase, setLowerCase] = useState(true);
     const [numbers, setNumbers] = useState(true);
     const [symbols, setSymbols] = useState(true);
+
     const copyBtn = useRef();
 
     const handleGeneratorPassword = () => {
         if(!uppercase && !lowerCase && !numbers && !symbols) {
-            notifs("You must select at least one option ", true);
+            notifs(ALERT, true);
+
+
         }
 
         let characters = "";
@@ -43,6 +46,11 @@ function App() {
         setPassword(passwordCreator(characters))
     }
 
+    useEffect(() => {
+        handleGeneratorPassword();
+    }, []);
+
+
     const passwordCreator = (characterList) => {
         let password = "";
         const characterListLength = characterList.length;
@@ -56,10 +64,11 @@ function App() {
         return Math.round(Math.random() * limit);
     }
 
-    
+
     const copyFromClipboard = () => {
       const newTextArea = document.createElement("textarea");
-      newTextArea.body.appendChild(newTextArea);
+      newTextArea.innerText = password;
+      document.body.appendChild(newTextArea);
       newTextArea.select();
       document.execCommand("copy");
       newTextArea.remove();
@@ -68,10 +77,10 @@ function App() {
       setTimeout(() => {
         copyBtn.current.disabled = false;
       }, 3000)
-    };
+    }
 
-     const notifs = (message, Error) => {
-         if(Error){
+     const notifs = (message, hasError = false) => {
+         if(hasError){
             toast.error(message, {
                 position:toast.POSITION.TOP_CENTER,
                 autoClose: 5000,
@@ -82,7 +91,7 @@ function App() {
                 progress:undefined,
             });
          }else{
-             toast.success(message, {
+             toast(message, {
                 position:toast.POSITION.TOP_CENTER,
                 autoClose: 5000,
                 hideProgressBar:false,
@@ -92,11 +101,13 @@ function App() {
                 progress:undefined,
             });
          }
+
      }
 
-     const handleCopy = ()=> {
+     const handleCopy = (e) => {
          copyFromClipboard();
-        notifs("Password copied to clipboard ", false);
+        notifs(COPY_SUCCESS);
+
      }
 
       return (
