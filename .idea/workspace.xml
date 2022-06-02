@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="new quizz App">
-      <change afterPath="$PROJECT_DIR$/quiz-app/src/Context/Context.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quiz-app/src/Form/Form.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quiz-app/src/Loading/Loading.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quiz-app/src/Modal/Modal.jsx" afterDir="false" />
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="new quizz App Files and setting the folder tree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/quiz-app/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,21 +111,7 @@
       <workItem from="1654005943250" duration="173000" />
       <workItem from="1654006150209" duration="391000" />
       <workItem from="1654089435138" duration="278000" />
-      <workItem from="1654163303271" duration="1648000" />
-    </task>
-    <task id="LOCAL-00065" summary="setting the style of the main app">
-      <created>1651836201409</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1651836201409</updated>
-    </task>
-    <task id="LOCAL-00066" summary="testing the main interface">
-      <created>1651837331967</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1651837331967</updated>
+      <workItem from="1654163303271" duration="4514000" />
     </task>
     <task id="LOCAL-00067" summary="creating the needed components">
       <created>1651840775048</created>
@@ -459,7 +442,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654006534917</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="new quizz App Files and setting the folder tree">
+      <created>1654167379881</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1654167379882</updated>
+    </task>
+    <task id="LOCAL-00115" summary="new quizz App Files and setting the folder tree">
+      <created>1654167587410</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1654167587410</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,7 +475,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Link in search and Loading + Footer components" />
     <MESSAGE value="creating qnd setting the global Context" />
     <MESSAGE value="adding the API key and search" />
     <MESSAGE value="setting the return blog for the search case" />
@@ -503,6 +499,7 @@
     <MESSAGE value="testing the project where functionality should be correct" />
     <MESSAGE value="copy functionality" />
     <MESSAGE value="new quizz App" />
-    <option name="LAST_COMMIT_MESSAGE" value="new quizz App" />
+    <MESSAGE value="new quizz App Files and setting the folder tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="new quizz App Files and setting the folder tree" />
   </component>
 </project>
