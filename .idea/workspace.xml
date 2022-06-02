@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="new quizz App Files and setting the folder tree">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="Setting the css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/quiz-app/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/quiz-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz-app/src/Form/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/quiz-app/src/Form/Form.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz-app/src/Loading/Loading.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/quiz-app/src/Loading/Loading.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz-app/src/Modal/Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/quiz-app/src/Modal/Modal.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,14 +114,7 @@
       <workItem from="1654005943250" duration="173000" />
       <workItem from="1654006150209" duration="391000" />
       <workItem from="1654089435138" duration="278000" />
-      <workItem from="1654163303271" duration="4514000" />
-    </task>
-    <task id="LOCAL-00067" summary="creating the needed components">
-      <created>1651840775048</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1651840775048</updated>
+      <workItem from="1654163303271" duration="11037000" />
     </task>
     <task id="LOCAL-00068" summary="setting those needed components">
       <created>1651843918699</created>
@@ -456,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654167587410</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="Setting the css">
+      <created>1654170733027</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1654170733027</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,7 +478,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="creating qnd setting the global Context" />
     <MESSAGE value="adding the API key and search" />
     <MESSAGE value="setting the return blog for the search case" />
     <MESSAGE value="setting the return block for the images case" />
@@ -500,6 +502,7 @@
     <MESSAGE value="copy functionality" />
     <MESSAGE value="new quizz App" />
     <MESSAGE value="new quizz App Files and setting the folder tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="new quizz App Files and setting the folder tree" />
+    <MESSAGE value="Setting the css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setting the css" />
   </component>
 </project>
