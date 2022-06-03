@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="function to fetch questions from the backend">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="function to fetch questions from the API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/quiz-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/quiz-app/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quiz-app/src/Context/Context.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/quiz-app/src/Context/Context.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,14 +112,7 @@
       <workItem from="1654006150209" duration="391000" />
       <workItem from="1654089435138" duration="278000" />
       <workItem from="1654163303271" duration="11198000" />
-      <workItem from="1654254520339" duration="5323000" />
-    </task>
-    <task id="LOCAL-00071" summary="TheirMessage component">
-      <created>1652089145876</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1652089145876</updated>
+      <workItem from="1654254520339" duration="10253000" />
     </task>
     <task id="LOCAL-00072" summary="creating the function renderReadReceipts in ChatFeed components">
       <created>1652166736078</created>
@@ -459,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654261102825</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="function to fetch questions from the API">
+      <created>1654262825452</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1654262825452</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,7 +476,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="creating the routes components" />
     <MESSAGE value="Setting the app for rendering the navbar and navbar" />
     <MESSAGE value="commiting the file final page but it still need some styling" />
     <MESSAGE value="global css and fixing some bugs" />
@@ -503,6 +500,7 @@
     <MESSAGE value="configurating the app file" />
     <MESSAGE value="configurating the context" />
     <MESSAGE value="function to fetch questions from the backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="function to fetch questions from the backend" />
+    <MESSAGE value="function to fetch questions from the API" />
+    <option name="LAST_COMMIT_MESSAGE" value="function to fetch questions from the API" />
   </component>
 </project>

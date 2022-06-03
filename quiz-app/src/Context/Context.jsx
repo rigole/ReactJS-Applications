@@ -1,6 +1,12 @@
 import   { createContext, useState, useContext } from "react";
 import axios from "axios";
 
+const table = {
+    sports : 19,
+    history: 23,
+    politics: 24,
+}
+
 const AppContext = createContext();
 const AppProvider = ({ children }) => {
 
@@ -17,10 +23,10 @@ const AppProvider = ({ children }) => {
     });
     const [modal, setModal] = useState(false)
 
-    const fetchQuestions = async () => {
+    const fetchQuestions = async (url) => {
         setLoading(true);
         setWaiting(false);
-        const response = await axios.get("https://opentdb.com/api_config.php").catch((error) => {console.log(error)});
+        const response = await axios.get(url).catch((error) => {console.log(error)});
 
         if(response){
             const data = response.data.results;
@@ -38,6 +44,43 @@ const AppProvider = ({ children }) => {
         }
 
     }
+
+    const openModal = () => {
+        setModal(true)
+    }
+    const closeModal = () => {
+        setModal(false)
+        setWaiting(true)
+        setCorrect(0)
+    }
+
+    const nextQuestion = () => {
+        setIndex((oldNumberQuestion) => {
+            const index = oldNumberQuestion + 1;
+            if (index >= oldNumberQuestion.length - 1){
+                openModal();
+                return 0;
+            } else {
+                return index;
+            }
+
+        });
+    }
+
+    const checkAnswer = (answer) => {
+        if (value) {
+            setCorrect((oldNumberCorrect) => oldNumberCorrect + 1);
+
+        }
+        nextQuestion();
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const url = `https://opentdb.com/api.php?amount=${quiz.amount}&category=${quiz.category}&difficulty=${quiz.difficulty}&type=multiple`;
+        fetchQuestions(url)
+    }
+
 
     return(
         <AppContext.Provider>
