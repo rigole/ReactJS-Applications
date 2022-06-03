@@ -1,5 +1,5 @@
 import   { createContext, useState, useContext } from "react";
-
+import axios from "axios";
 
 const AppContext = createContext();
 const AppProvider = ({ children }) => {
@@ -16,6 +16,28 @@ const AppProvider = ({ children }) => {
         difficulty: "easy"
     });
     const [modal, setModal] = useState(false)
+
+    const fetchQuestions = async () => {
+        setLoading(true);
+        setWaiting(false);
+        const response = await axios.get("https://opentdb.com/api_config.php").catch((error) => {console.log(error)});
+
+        if(response){
+            const data = response.data.results;
+            if (data.length){
+                setQuestions(data)
+                setLoading(false);
+                setWaiting(false);
+                setError(false)
+            }else {
+                setWaiting(true);
+                setLoading(true);
+            }
+        }else{
+            setWaiting(true);
+        }
+
+    }
 
     return(
         <AppContext.Provider>
