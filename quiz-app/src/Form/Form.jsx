@@ -6,7 +6,14 @@ const MainForm = () => {
                     <h2>Setup quiz</h2>
                     <div className="form-control">
                         <label htmlFor="amount">Number of Questions</label>
-                        <input type="number" id="amount" name="amount" className="form-input"/>
+                        <input
+                            type="number"
+                            id="amount"
+                            min={1}
+                            max={50}
+                            name="amount"
+                            className="form-input"
+                        />
                     </div>
                     <div className="form-control">
                         <label htmlFor="category">category</label>

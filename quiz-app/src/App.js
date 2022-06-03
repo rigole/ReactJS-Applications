@@ -5,11 +5,16 @@ import Modal from "./Modal/Modal";
 
 function App() {
   return (
-    <div className="App">
-      <MainForm />
-        <Modal/>
-        <Loading/>
-    </div>
+    <main>
+        <section className="quiz">
+            <p className="correct-answers">correct answers: 3</p>
+            <article className="container">
+                <h2>Text</h2>
+                <div className="btn-container"></div>
+            </article>
+            <button className="next-question">Next questions</button>
+        </section>
+    </main>
   );
 }
 
