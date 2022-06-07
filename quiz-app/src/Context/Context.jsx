@@ -12,12 +12,12 @@ const AppProvider = ({ children }) => {
 
     const [waiting, setWaiting] = useState(true);
     const [loading, setLoading] = useState(false);
-    const [question, setQuestions] = useState([]);
+    const [questions, setQuestions] = useState([]);
     const [index, setIndex] = useState(0);
     const [correct, setCorrect] = useState(0);
     const [error, setError] = useState(false);
     const [quiz, setQuiz] = useState({
-        amount:10,
+        amount: 10,
         category: "sports",
         difficulty: "easy"
     });
@@ -26,22 +26,23 @@ const AppProvider = ({ children }) => {
     const fetchQuestions = async (url) => {
         setLoading(true);
         setWaiting(false);
-        const response = await axios.get(url).catch((error) => {console.log(error)});
+         axios.get(url).then((response) => {
+             if(response){
+                 const data = response.data.results;
+                 if (data.length > 0){
+                     setQuestions(data)
+                     setLoading(false);
+                     setWaiting(false);
+                     setError(false)
+                 }else {
+                     setWaiting(true);
+                     setLoading(true);
+                 }
+             }else{
+                 setWaiting(true);
+             }
+         })
 
-        if(response){
-            const data = response.data.results;
-            if (data.length){
-                setQuestions(data)
-                setLoading(false);
-                setWaiting(false);
-                setError(false)
-            }else {
-                setWaiting(true);
-                setLoading(true);
-            }
-        }else{
-            setWaiting(true);
-        }
 
     }
 
@@ -57,7 +58,7 @@ const AppProvider = ({ children }) => {
     const nextQuestion = () => {
         setIndex((oldNumberQuestion) => {
             const index = oldNumberQuestion + 1;
-            if (index >= oldNumberQuestion.length - 1){
+            if (index > oldNumberQuestion.length - 1){
                 openModal();
                 return 0;
             } else {
@@ -68,22 +69,46 @@ const AppProvider = ({ children }) => {
     }
 
     const checkAnswer = (answer) => {
-        if (value) {
+        if (answer) {
             setCorrect((oldNumberCorrect) => oldNumberCorrect + 1);
 
         }
         nextQuestion();
     }
 
+    const handleChange = (e) => {
+        const name = e.target.name;
+        const value = e.target.value;
+
+        setQuiz({...quiz, [name]: value});
+    }
+
     const handleSubmit = (e) => {
         e.preventDefault();
-        const url = `https://opentdb.com/api.php?amount=${quiz.amount}&category=${quiz.category}&difficulty=${quiz.difficulty}&type=multiple`;
+        const { amount, difficulty, category } = quiz;
+        const url = `https://opentdb.com/api.php?amount=10`;
         fetchQuestions(url)
     }
 
 
     return(
-        <AppContext.Provider>
+        <AppContext.Provider
+        value={{
+            waiting,
+            loading,
+            questions,
+            index,
+            correct,
+            error,
+            modal,
+            nextQuestion,
+            checkAnswer,
+            closeModal,
+            quiz,
+            handleSubmit,
+            handleChange
+        }}
+        >
             {children}
         </AppContext.Provider>
     )
@@ -93,4 +118,4 @@ export const useGlobalContext = () => {
     return useContext(AppContext);
 }
 
-export { AppProvider, AppContext };
+export { AppContext, AppProvider };
