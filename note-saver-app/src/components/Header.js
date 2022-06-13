@@ -9,7 +9,9 @@ function Header() {
     )
 
     return (
-     <div>{logo} <h1>Saving</h1></div>
+     <div className="header">
+         {logo} <h1>Saving</h1>
+     </div>
     )
 
 }
