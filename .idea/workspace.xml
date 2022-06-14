@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="Header component">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="Header styling">
+      <change afterPath="$PROJECT_DIR$/note-saver-app/src/components/Count.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note-saver-app/src/components/NoteArea.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note-saver-app/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/note-saver-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-saver-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note-saver-app/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-saver-app/src/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/note-saver-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-saver-app/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,14 +118,8 @@
       <workItem from="1654254520339" duration="14082000" />
       <workItem from="1654340475264" duration="75000" />
       <workItem from="1654586804747" duration="6340000" />
-      <workItem from="1655118498854" duration="6738000" />
-    </task>
-    <task id="LOCAL-00076" summary="creating the LoginForm component 2">
-      <created>1652172153407</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1652172153407</updated>
+      <workItem from="1655118498854" duration="7420000" />
+      <workItem from="1655192678747" duration="3382000" />
     </task>
     <task id="LOCAL-00077" summary="creating the handleSubmit function for login">
       <created>1652173672406</created>
@@ -463,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655124237845</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="Header styling">
+      <created>1655128933529</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1655128933529</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,7 +483,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="password generator app" />
     <MESSAGE value="updating the README" />
     <MESSAGE value="adding toasting and sass" />
     <MESSAGE value="setting the app" />
@@ -507,6 +507,7 @@
     <MESSAGE value="questions displaying" />
     <MESSAGE value="New app note saver" />
     <MESSAGE value="Header component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Header component" />
+    <MESSAGE value="Header styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Header styling" />
   </component>
 </project>
