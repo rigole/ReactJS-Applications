@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import AddIcon from '@mui/icons-material/Add';
-function NoteArea() {
+function NoteArea({ onAdd }) {
     const [expanded, setExpanded] = useState(false)
     const [note, setNote] = useState({
         title: "",
@@ -16,7 +16,9 @@ function NoteArea() {
             }
         })
     }
-
+    function handleExpanded(){
+        setExpanded(true);
+    }
     function submitButton(e) {
         onAdd(note);
         setNote({
@@ -30,12 +32,27 @@ function NoteArea() {
     return (
         <div>
             <form >
-                <input type="text" placeholder="Title" name="title"/>
-                <textarea
-                    name="content"
-                    placeholder="Write a note here"
-                />
-                <button>
+                {expanded && (
+                    <input
+                        type="text"
+                        value={note.title}
+                        onChange={handleChange}
+                        placeholder="Title"
+                        name="title"
+                    />
+                )}
+              <p>
+                  <textarea
+                      value={note.content}
+                      onClick={handleExpanded}
+                      onChange={handleChange}
+                      rows={expanded ? 3 : 1}
+                      name="content"
+                      placeholder="Write a note here"
+                  />
+              </p>
+
+                <button onClick={submitButton}>
                     <AddIcon/>
                 </button>
             </form>
