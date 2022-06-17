@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="HandleChange, SubmitButton function">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="disposition of title and content note">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-saver-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/note-saver-app/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-saver-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-saver-app/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/note-saver-app/src/components/NoteArea.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-saver-app/src/components/NoteArea.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-saver-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-saver-app/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-saver-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-saver-app/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,14 +123,8 @@
       <workItem from="1655192678747" duration="7276000" />
       <workItem from="1655330006208" duration="732000" />
       <workItem from="1655364207194" duration="4521000" />
-      <workItem from="1655392063456" duration="1861000" />
-    </task>
-    <task id="LOCAL-00081" summary="adding craco and tailwindcss">
-      <created>1652270118111</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1652270118112</updated>
+      <workItem from="1655392063456" duration="1917000" />
+      <workItem from="1655453836851" duration="4402000" />
     </task>
     <task id="LOCAL-00082" summary="NavBar components">
       <created>1652272434487</created>
@@ -464,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655392408504</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="disposition of title and content note">
+      <created>1655394038782</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1655394038782</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,7 +488,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="adding the style with Sass 2" />
     <MESSAGE value="adding the style with Sass 3" />
     <MESSAGE value="setting the state and the characters for the password" />
     <MESSAGE value="create the functions to create password, generate an index, and handle the generator" />
@@ -508,6 +512,7 @@
     <MESSAGE value="NoteArea  and Count component 2" />
     <MESSAGE value="adding material design package and icons component to noteArea" />
     <MESSAGE value="HandleChange, SubmitButton function" />
-    <option name="LAST_COMMIT_MESSAGE" value="HandleChange, SubmitButton function" />
+    <MESSAGE value="disposition of title and content note" />
+    <option name="LAST_COMMIT_MESSAGE" value="disposition of title and content note" />
   </component>
 </project>

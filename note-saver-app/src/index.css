@@ -30,3 +30,41 @@ body{
   justify-content: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans" , Arial, sans-serif;
 }
+
+form {
+  position: relative;
+  width: 600px;
+  background:#fff;
+  padding: 7px;
+  border-radius: 7px;
+  margin: 32px auto 50px auto;
+  box-shadow: 0 1px 7px rgb(128, 128, 128);
+
+}
+
+form input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 4px 10px;
+  margin-bottom: 20px;
+}
+
+form textarea{
+  width: 100%;
+  border: none;
+  padding: 4px 10px;
+  outline: none;
+  font-size: 1rem;
+}
+
+form button {
+  position: absolute;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  right: 10px;
+  bottom: -18px;
+
+}
+

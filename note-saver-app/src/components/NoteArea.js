@@ -46,7 +46,7 @@ function NoteArea({ onAdd }) {
                       value={note.content}
                       onClick={handleExpanded}
                       onChange={handleChange}
-                      rows={expanded ? 3 : 1}
+                      rows={expanded ? 13 : 1}
                       name="content"
                       placeholder="Write a note here"
                   />
