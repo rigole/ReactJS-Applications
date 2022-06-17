@@ -1,4 +1,6 @@
 import React from 'react'
+import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
+import Button from '@mui/material'
 
 function Note() {
 
@@ -6,7 +8,9 @@ function Note() {
         <div className="note">
             <h1>Title</h1>
             <p>Content</p>
-            <button>Delete</button>
+            <Button>
+                <DeleteOutlineIcon/>
+            </Button>
         </div>
     )
 }

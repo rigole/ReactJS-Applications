@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="Creating note component">
-      <change afterPath="$PROJECT_DIR$/note-saver-app/src/components/Note.js" afterDir="false" />
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="styling note component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note-saver-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-saver-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-saver-app/src/components/Note.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-saver-app/src/components/Note.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/note-saver-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-saver-app/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,14 +122,7 @@
       <workItem from="1655364207194" duration="4521000" />
       <workItem from="1655392063456" duration="1917000" />
       <workItem from="1655453836851" duration="4833000" />
-      <workItem from="1655463306144" duration="1283000" />
-    </task>
-    <task id="LOCAL-00084" summary="component search and debounce and use-debounce">
-      <created>1652273917016</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1652273917017</updated>
+      <workItem from="1655463306144" duration="2276000" />
     </task>
     <task id="LOCAL-00085" summary="component search 2">
       <created>1652276801622</created>
@@ -468,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655460903310</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="styling note component">
+      <created>1655464969573</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1655464969576</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,7 +486,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="passwordCreator method" />
     <MESSAGE value="testing the project where functionality should be correct" />
     <MESSAGE value="copy functionality" />
     <MESSAGE value="new quizz App" />
@@ -512,6 +510,7 @@
     <MESSAGE value="styling the content note 2" />
     <MESSAGE value="Creating note components" />
     <MESSAGE value="Creating note component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating note component" />
+    <MESSAGE value="styling note component" />
+    <option name="LAST_COMMIT_MESSAGE" value="styling note component" />
   </component>
 </project>
