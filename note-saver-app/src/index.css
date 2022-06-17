@@ -65,6 +65,13 @@ form button {
   align-items: center;
   right: 10px;
   bottom: -18px;
+  background: #2ecc71;
+  color: #fff;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgb(165, 165, 165);
+  cursor: pointer;
 
 }
 
