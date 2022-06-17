@@ -1,7 +1,8 @@
-import logo from './logo.svg';
+
 import Header from "./components/Header"
 import Count from "./components/Count"
 import NoteArea from "./components/NoteArea";
+import Note from "./components/Note"
 import './index.css'
 
 
@@ -12,6 +13,7 @@ function App() {
         <Header/>
         <Count/>
         <NoteArea/>
+        <Note/>
     </div>
   );
 }

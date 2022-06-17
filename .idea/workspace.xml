@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="styling the content note 1">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="Creating note component">
+      <change afterPath="$PROJECT_DIR$/note-saver-app/src/components/Note.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-saver-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-saver-app/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/note-saver-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-saver-app/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,14 +122,8 @@
       <workItem from="1655330006208" duration="732000" />
       <workItem from="1655364207194" duration="4521000" />
       <workItem from="1655392063456" duration="1917000" />
-      <workItem from="1655453836851" duration="4691000" />
-    </task>
-    <task id="LOCAL-00083" summary="NavBar components 2">
-      <created>1652272451293</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1652272451293</updated>
+      <workItem from="1655453836851" duration="4833000" />
+      <workItem from="1655463306144" duration="1283000" />
     </task>
     <task id="LOCAL-00084" summary="component search and debounce and use-debounce">
       <created>1652273917016</created>
@@ -464,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655460661142</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="styling the content note 2">
+      <created>1655460903310</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1655460903310</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,9 +487,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="setting the state and the characters for the password" />
-    <MESSAGE value="create the functions to create password, generate an index, and handle the generator" />
-    <MESSAGE value="handleGeneratorPassword method" />
     <MESSAGE value="passwordCreator method" />
     <MESSAGE value="testing the project where functionality should be correct" />
     <MESSAGE value="copy functionality" />
@@ -508,6 +509,9 @@
     <MESSAGE value="HandleChange, SubmitButton function" />
     <MESSAGE value="disposition of title and content note" />
     <MESSAGE value="styling the content note 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="styling the content note 1" />
+    <MESSAGE value="styling the content note 2" />
+    <MESSAGE value="Creating note components" />
+    <MESSAGE value="Creating note component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating note component" />
   </component>
 </project>
