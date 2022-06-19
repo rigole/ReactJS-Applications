@@ -8,7 +8,7 @@ function Note({title, content, onDelete, id}) {
         <div className="note">
             <h1>{title}</h1>
             <p>{content}</p>
-            <Button>
+            <Button onClick={() => onDelete(id)}>
                 <DeleteOutlineIcon/>
             </Button>
         </div>

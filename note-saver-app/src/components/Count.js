@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Count() {
+function Count({count}) {
     return (
         
         <div className="count">
-            Count
+            <h4>{count}</h4>
         </div>
     )
 }
