@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="setting the app.js for deleting and adding notes">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="adding and deleting notes">
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/src/setupTests.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note-saver-app/src/components/Note.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-saver-app/src/components/Note.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,14 +141,10 @@
       <workItem from="1655463306144" duration="2775000" />
       <workItem from="1655489946769" duration="70000" />
       <workItem from="1655577769529" duration="6370000" />
-      <workItem from="1655636540947" duration="2264000" />
-    </task>
-    <task id="LOCAL-00087" summary="Link setting and creating the Loading react and adding its package">
-      <created>1652436152196</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1652436152197</updated>
+      <workItem from="1655636540947" duration="2685000" />
+      <workItem from="1655671168571" duration="14000" />
+      <workItem from="1655825688513" duration="166000" />
+      <workItem from="1655826042591" duration="431000" />
     </task>
     <task id="LOCAL-00088" summary="Link in search and Loading + Footer components">
       <created>1652438280344</created>
@@ -469,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655639128517</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="adding and deleting notes">
+      <created>1655639609760</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1655639609760</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,7 +508,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="new quizz App" />
     <MESSAGE value="new quizz App Files and setting the folder tree" />
     <MESSAGE value="Setting the css" />
     <MESSAGE value="setting the Loading, Modal and Form and rendering them in App" />
@@ -513,6 +532,7 @@
     <MESSAGE value="styling note component" />
     <MESSAGE value="styling note component 2" />
     <MESSAGE value="setting the app.js for deleting and adding notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="setting the app.js for deleting and adding notes" />
+    <MESSAGE value="adding and deleting notes" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding and deleting notes" />
   </component>
 </project>
