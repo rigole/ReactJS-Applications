@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="folder Structure">
-      <change afterPath="$PROJECT_DIR$/emoiji-searcher/Dashboard/Emoijis/emojiList.json" afterDir="false" />
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="setting app components">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emoiji-searcher/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emoiji-searcher/Dashboard/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/Dashboard/Header/Header.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,14 +134,7 @@
       <workItem from="1655825688513" duration="166000" />
       <workItem from="1655826042591" duration="694000" />
       <workItem from="1655838717720" duration="54000" />
-      <workItem from="1655969819701" duration="2591000" />
-    </task>
-    <task id="LOCAL-00090" summary="adding the API key and search">
-      <created>1652632884085</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1652632884087</updated>
+      <workItem from="1655969819701" duration="5180000" />
     </task>
     <task id="LOCAL-00091" summary="setting the return blog for the search case">
       <created>1652692690145</created>
@@ -480,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655971279698</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="setting app components">
+      <created>1655972480374</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1655972480374</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,7 +498,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="setting the Loading, Modal and Form and rendering them in App" />
     <MESSAGE value="configurating the app file" />
     <MESSAGE value="configurating the context" />
     <MESSAGE value="function to fetch questions from the backend" />
@@ -524,6 +522,7 @@
     <MESSAGE value="adding and deleting notes" />
     <MESSAGE value="new project emoji searcher" />
     <MESSAGE value="folder Structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="folder Structure" />
+    <MESSAGE value="setting app components" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting app components" />
   </component>
 </project>
