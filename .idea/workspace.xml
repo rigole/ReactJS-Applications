@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="adding and deleting notes">
-      <change afterPath="$PROJECT_DIR$/emoiji-searcher/.gitignore" afterDir="false" />
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="new project emoji searcher">
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/Dashboard/Emoijis/EmoijiResultRow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/Dashboard/Emoijis/EmoijiResultRow.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/Dashboard/Emoijis/EmoijiResults.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/Dashboard/Emoijis/EmoijiResults.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/Dashboard/Emoijis/Filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/Dashboard/Header/Header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/Dashboard/Header/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/Dashboard/SearchBar/SearchBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/Dashboard/SearchBar/SearchBar.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/emoiji-searcher/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emoiji-searcher/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emoiji-searcher/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emoiji-searcher/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emoiji-searcher/public/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/emoiji-searcher/public/logo192.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/emoiji-searcher/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emoiji-searcher/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emoiji-searcher/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emoiji-searcher/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emoiji-searcher/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emoiji-searcher/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emoiji-searcher/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emoiji-searcher/src/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/emoiji-searcher/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emoiji-searcher/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emoiji-searcher/src/setupTests.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emoiji-searcher/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -55,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -144,14 +140,9 @@
       <workItem from="1655636540947" duration="2685000" />
       <workItem from="1655671168571" duration="14000" />
       <workItem from="1655825688513" duration="166000" />
-      <workItem from="1655826042591" duration="431000" />
-    </task>
-    <task id="LOCAL-00088" summary="Link in search and Loading + Footer components">
-      <created>1652438280344</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1652438280344</updated>
+      <workItem from="1655826042591" duration="694000" />
+      <workItem from="1655838717720" duration="54000" />
+      <workItem from="1655969819701" duration="1322000" />
     </task>
     <task id="LOCAL-00089" summary="creating qnd setting the global Context">
       <created>1652448438193</created>
@@ -489,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655639609760</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="new project emoji searcher">
+      <created>1655826680060</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1655826680061</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -508,7 +506,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="new quizz App Files and setting the folder tree" />
     <MESSAGE value="Setting the css" />
     <MESSAGE value="setting the Loading, Modal and Form and rendering them in App" />
     <MESSAGE value="configurating the app file" />
@@ -533,6 +530,7 @@
     <MESSAGE value="styling note component 2" />
     <MESSAGE value="setting the app.js for deleting and adding notes" />
     <MESSAGE value="adding and deleting notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding and deleting notes" />
+    <MESSAGE value="new project emoji searcher" />
+    <option name="LAST_COMMIT_MESSAGE" value="new project emoji searcher" />
   </component>
 </project>
