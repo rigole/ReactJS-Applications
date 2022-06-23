@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="setting app components">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="setting Header component">
+      <change afterPath="$PROJECT_DIR$/emoiji-searcher/src/Dashboard/Header/Header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emoiji-searcher/Dashboard/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/Dashboard/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emoiji-searcher/Dashboard/Emoijis/EmoijiResultRow.css" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/src/Dashboard/Emoijis/EmoijiResultRow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emoiji-searcher/Dashboard/Emoijis/EmoijiResultRow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/src/Dashboard/Emoijis/EmoijiResultRow.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emoiji-searcher/Dashboard/Emoijis/EmoijiResults.css" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/src/Dashboard/Emoijis/EmoijiResults.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emoiji-searcher/Dashboard/Emoijis/EmoijiResults.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/src/Dashboard/Emoijis/EmoijiResults.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emoiji-searcher/Dashboard/Emoijis/Filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/src/Dashboard/Emoijis/Filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emoiji-searcher/Dashboard/Emoijis/emojiList.json" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/src/Dashboard/Emoijis/emojiList.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emoiji-searcher/Dashboard/Header/Header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emoiji-searcher/Dashboard/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/src/Dashboard/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emoiji-searcher/Dashboard/SearchBar/SearchBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/src/Dashboard/SearchBar/SearchBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emoiji-searcher/Dashboard/SearchBar/SearchBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/src/Dashboard/SearchBar/SearchBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emoiji-searcher/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emoiji-searcher/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emoiji-searcher/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +62,7 @@
       <recent name="C:\Users\Plass\WebstormProjects\ReactJS-Applications\emoiji-searcher\Dashboard\Emoijis" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Plass\WebstormProjects\ReactJS-Applications\emoiji-searcher\src" />
       <recent name="C:\Users\Plass\WebstormProjects\ReactJS-Applications\emoiji-searcher\Dashboard\SearchBar" />
       <recent name="C:\Users\Plass\WebstormProjects\ReactJS-Applications\search-engine-app\src" />
       <recent name="C:\Users\Plass\WebstormProjects\ReactJS-Applications" />
@@ -134,14 +148,7 @@
       <workItem from="1655825688513" duration="166000" />
       <workItem from="1655826042591" duration="694000" />
       <workItem from="1655838717720" duration="54000" />
-      <workItem from="1655969819701" duration="5180000" />
-    </task>
-    <task id="LOCAL-00091" summary="setting the return blog for the search case">
-      <created>1652692690145</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1652692690148</updated>
+      <workItem from="1655969819701" duration="7480000" />
     </task>
     <task id="LOCAL-00092" summary="setting the return block for the video case">
       <created>1652697315423</created>
@@ -479,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655972480374</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="setting Header component">
+      <created>1655976250749</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1655976250749</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +512,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="configurating the app file" />
     <MESSAGE value="configurating the context" />
     <MESSAGE value="function to fetch questions from the backend" />
     <MESSAGE value="function to fetch questions from the API" />
@@ -523,6 +536,7 @@
     <MESSAGE value="new project emoji searcher" />
     <MESSAGE value="folder Structure" />
     <MESSAGE value="setting app components" />
-    <option name="LAST_COMMIT_MESSAGE" value="setting app components" />
+    <MESSAGE value="setting Header component" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting Header component" />
   </component>
 </project>

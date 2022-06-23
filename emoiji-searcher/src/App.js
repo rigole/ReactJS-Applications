@@ -1,10 +1,11 @@
 import React, {PureComponent} from "react"
-import Header from "../Dashboard/Header/Header.jsx"
+import Header from "./Dashboard/Header/Header"
 
 export default class App extends PureComponent{
 
     render(){
         return(
+
             <div>
                 <Header/>
             </div>

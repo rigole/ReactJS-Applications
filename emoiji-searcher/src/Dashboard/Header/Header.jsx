@@ -5,7 +5,7 @@ export default  class Header extends PureComponent {
 
     render(){
         return(
-            <header>
+            <header className="header">
                 <img
                     src="//cdn.jsdelivr.net/emojione/assets/png/1f638.png"
                     alt=""
