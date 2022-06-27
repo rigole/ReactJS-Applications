@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="header styling">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="Emoji filter setting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emoiji-searcher/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emoiji-searcher/src/Dashboard/Emoijis/Filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/src/Dashboard/Emoijis/Filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emoiji-searcher/src/Dashboard/SearchBar/SearchBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/src/Dashboard/SearchBar/SearchBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emoiji-searcher/src/Dashboard/SearchBar/SearchBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/src/Dashboard/SearchBar/SearchBar.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,14 +137,7 @@
       <workItem from="1655826042591" duration="694000" />
       <workItem from="1655838717720" duration="54000" />
       <workItem from="1655969819701" duration="10585000" />
-      <workItem from="1656319196142" duration="3043000" />
-    </task>
-    <task id="LOCAL-00093" summary="setting the return block for the video case">
-      <created>1652697429426</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1652697429426</updated>
+      <workItem from="1656319196142" duration="5433000" />
     </task>
     <task id="LOCAL-00094" summary="creating the routes components">
       <created>1652698168674</created>
@@ -484,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655979625325</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="Emoji filter setting">
+      <created>1656322529117</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1656322529118</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,7 +501,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="function to fetch questions from the backend" />
     <MESSAGE value="function to fetch questions from the API" />
     <MESSAGE value="adding nextQuestions, checkAnswers, handleSubmit functions" />
     <MESSAGE value="questions displaying" />
@@ -528,6 +525,7 @@
     <MESSAGE value="setting app components" />
     <MESSAGE value="setting Header component" />
     <MESSAGE value="header styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="header styling" />
+    <MESSAGE value="Emoji filter setting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Emoji filter setting" />
   </component>
 </project>
