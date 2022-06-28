@@ -16,7 +16,7 @@ export default class App extends PureComponent{
             <div>
                 <Header/>
                 <SearchBar/>
-                <EmoijiResults/>
+                <EmoijiResults emojiData={this.state.filteredEmoijis}/>
             </div>
         )
     }
