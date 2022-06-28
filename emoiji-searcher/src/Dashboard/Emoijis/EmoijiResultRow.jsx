@@ -10,7 +10,7 @@ export default class EmoijiResultRow extends PureComponent{
 
 
         return(
-            <div className="component-emoji-result-row">
+            <div className="component-emoji-result-row copy-it" data-clipboard-text={symbol}>
                 <img src={src} alt={title}/>
                 <span className="title">{title}</span>
                 <span className="info">Click to copy</span>

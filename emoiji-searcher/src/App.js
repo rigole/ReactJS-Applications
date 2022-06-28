@@ -10,12 +10,20 @@ export default class App extends PureComponent{
         filteredEmoijis: Filter("", 20)
     };
 
+    handleChange = (event) => {
+        this.setState({
+            filteredEmoijis: Filter(event.target.value, 15)
+        })
+
+    }
+
+
     render(){
         return(
 
             <div>
                 <Header/>
-                <SearchBar/>
+                <SearchBar handleChange={this.handleChange}/>
                 <EmoijiResults emojiData={this.state.filteredEmoijis}/>
             </div>
         )
