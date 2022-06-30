@@ -4,7 +4,7 @@ import './App.css';
 function App() {
     const [color, setColor] = ("")
   return (
-    <section>
+    <section className="container">
       <h3>Color Generator</h3>
       <form action="">
         <input
@@ -12,7 +12,9 @@ function App() {
             placeholder="type color"
             onChange={(e) => setColor(e.target.value)}
         />
-        <button type="submit">Get Colors</button>
+        <button className="btn" type="submit">
+            Get Colors
+        </button>
       </form>
     </section>
   );
