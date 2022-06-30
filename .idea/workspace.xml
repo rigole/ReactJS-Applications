@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="some refactoring">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="new app: color generators 2">
+      <change afterPath="$PROJECT_DIR$/color-generators/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/color-generators/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/color-generators/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/color-generators/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/color-generators/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/color-generators/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/color-generators/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/color-generators/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/color-generators/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/color-generators/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/color-generators/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/color-generators/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/color-generators/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/color-generators/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,14 +153,7 @@
       <workItem from="1656407951633" duration="7394000" />
       <workItem from="1656581569326" duration="325000" />
       <workItem from="1656582342408" duration="215000" />
-      <workItem from="1656582581934" duration="263000" />
-    </task>
-    <task id="LOCAL-00097" summary="global css and fixing some bugs">
-      <created>1653342596853</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1653342596853</updated>
+      <workItem from="1656582581934" duration="2367000" />
     </task>
     <task id="LOCAL-00098" summary="resetting the API keys and some locations">
       <created>1653381607812</created>
@@ -484,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656415506074</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="new app: color generators">
+      <created>1656583090948</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1656583090950</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,8 +517,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="New app note saver" />
-    <MESSAGE value="Header component" />
     <MESSAGE value="Header styling" />
     <MESSAGE value="NoteArea  and Count component" />
     <MESSAGE value="NoteArea  and Count component 2" />
@@ -528,6 +540,8 @@
     <MESSAGE value="Emoji filter setting 2" />
     <MESSAGE value="EmojiRow components and styling" />
     <MESSAGE value="some refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="some refactoring" />
+    <MESSAGE value="new app: color generators" />
+    <MESSAGE value="new app: color generators 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="new app: color generators 2" />
   </component>
 </project>
