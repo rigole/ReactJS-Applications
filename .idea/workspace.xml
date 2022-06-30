@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="EmojiRow components and styling">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="some refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emoiji-searcher/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emoiji-searcher/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emoiji-searcher/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emoiji-searcher/src/Dashboard/Emoijis/EmoijiResultRow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/src/Dashboard/Emoijis/EmoijiResultRow.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emoiji-searcher/src/Dashboard/Emoijis/EmoijiResults.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/src/Dashboard/Emoijis/EmoijiResults.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emoiji-searcher/src/Dashboard/SearchBar/SearchBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/emoiji-searcher/src/Dashboard/SearchBar/SearchBar.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,14 +136,10 @@
       <workItem from="1655838717720" duration="54000" />
       <workItem from="1655969819701" duration="10585000" />
       <workItem from="1656319196142" duration="7436000" />
-      <workItem from="1656407951633" duration="7318000" />
-    </task>
-    <task id="LOCAL-00096" summary="commiting the file final page but it still need some styling">
-      <created>1652705685728</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1652705685729</updated>
+      <workItem from="1656407951633" duration="7394000" />
+      <workItem from="1656581569326" duration="325000" />
+      <workItem from="1656582342408" duration="215000" />
+      <workItem from="1656582581934" duration="263000" />
     </task>
     <task id="LOCAL-00097" summary="global css and fixing some bugs">
       <created>1653342596853</created>
@@ -487,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656412615624</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="some refactoring">
+      <created>1656415506074</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1656415506074</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +503,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="questions displaying" />
     <MESSAGE value="New app note saver" />
     <MESSAGE value="Header component" />
     <MESSAGE value="Header styling" />
@@ -531,6 +527,7 @@
     <MESSAGE value="Emoji filter setting" />
     <MESSAGE value="Emoji filter setting 2" />
     <MESSAGE value="EmojiRow components and styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="EmojiRow components and styling" />
+    <MESSAGE value="some refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="some refactoring" />
   </component>
 </project>
