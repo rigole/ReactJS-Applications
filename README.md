@@ -7,3 +7,7 @@ This Repository aims to extend my knowledge of react, and I will build some web 
 5- Chat App<br/>
 6- Search Engine(working under certains locations)<br/>
 7- Password Generator according  certains criteria chosen by the user<br/>
+8- Quiz-app<br/>
+9- Emoji searcher<br/>
+10 - Color Generator
+11 - Note Saver
