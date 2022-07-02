@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="styling inputs and button">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="get values and setting the app components to return error if there's not error, updating the README">
+      <change afterPath="$PROJECT_DIR$/color-generators/src/SingleColor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/color-generators/src/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/color-generators/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/color-generators/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/color-generators/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/color-generators/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +15,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -143,14 +142,7 @@
       <workItem from="1656581569326" duration="325000" />
       <workItem from="1656582342408" duration="215000" />
       <workItem from="1656582581934" duration="8526000" />
-      <workItem from="1656741893290" duration="3338000" />
-    </task>
-    <task id="LOCAL-00100" summary="updating the README">
-      <created>1653386756046</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1653386756051</updated>
+      <workItem from="1656741893290" duration="5595000" />
     </task>
     <task id="LOCAL-00101" summary="adding toasting and sass">
       <created>1653470282209</created>
@@ -488,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656589898229</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="get values and setting the app components to return error if there's not error, updating the README">
+      <created>1656745505824</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1656745505829</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,8 +506,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="NoteArea  and Count component 2" />
-    <MESSAGE value="adding material design package and icons component to noteArea" />
     <MESSAGE value="HandleChange, SubmitButton function" />
     <MESSAGE value="disposition of title and content note" />
     <MESSAGE value="styling the content note 1" />
@@ -532,6 +529,8 @@
     <MESSAGE value="new app: color generators 2" />
     <MESSAGE value="getting the input" />
     <MESSAGE value="styling inputs and button" />
-    <option name="LAST_COMMIT_MESSAGE" value="styling inputs and button" />
+    <MESSAGE value="get values and setting the app components to return error if there's not error" />
+    <MESSAGE value="get values and setting the app components to return error if there's not error, updating the README" />
+    <option name="LAST_COMMIT_MESSAGE" value="get values and setting the app components to return error if there's not error, updating the README" />
   </component>
 </project>
