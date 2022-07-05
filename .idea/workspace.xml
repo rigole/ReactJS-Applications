@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="RGB to Hex">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="single component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/color-generators/src/SingleColor.js" beforeDir="false" afterPath="$PROJECT_DIR$/color-generators/src/SingleColor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/color-generators/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/color-generators/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,14 +142,9 @@
       <workItem from="1656582342408" duration="215000" />
       <workItem from="1656582581934" duration="8526000" />
       <workItem from="1656741893290" duration="5841000" />
-      <workItem from="1656871533457" duration="2024000" />
-    </task>
-    <task id="LOCAL-00102" summary="setting the app">
-      <created>1653474001945</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1653474001945</updated>
+      <workItem from="1656871533457" duration="2721000" />
+      <workItem from="1656959320032" duration="258000" />
+      <workItem from="1657022840534" duration="2902000" />
     </task>
     <task id="LOCAL-00103" summary="adding the style with Sass">
       <created>1653476236044</created>
@@ -487,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656747852684</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="single component">
+      <created>1656874225079</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1656874225082</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +508,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="disposition of title and content note" />
     <MESSAGE value="styling the content note 1" />
     <MESSAGE value="styling the content note 2" />
     <MESSAGE value="Creating note components" />
@@ -531,6 +532,7 @@
     <MESSAGE value="get values and setting the app components to return error if there's not error" />
     <MESSAGE value="get values and setting the app components to return error if there's not error, updating the README" />
     <MESSAGE value="RGB to Hex" />
-    <option name="LAST_COMMIT_MESSAGE" value="RGB to Hex" />
+    <MESSAGE value="single component" />
+    <option name="LAST_COMMIT_MESSAGE" value="single component" />
   </component>
 </project>
