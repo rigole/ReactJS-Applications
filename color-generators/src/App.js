@@ -4,11 +4,12 @@ import './App.css';
 
 function App() {
     const [color, setColor] = useState("")
-    const [error, setError] = useState(true)
+    const [error, setError] = useState(false)
     const [list, setList] = useState(new Values("#FF7777").all(10))
 
     const handleSubmit = (e) => {
       e.preventDefault();
+      console.log("test")
       try {
           let colors = new Values(color).all(10)
           setList(colors)
