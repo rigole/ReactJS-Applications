@@ -5,7 +5,6 @@ import SingleColor from "./SingleColor";
 
 
 
-
 function App() {
     const [color, setColor] = useState("")
     const [error, setError] = useState(false)
@@ -30,7 +29,7 @@ function App() {
               <form onSubmit={handleSubmit}>
                   <input
                       type="text"
-                      placeholder="type color"
+                      placeholder="#FF7777"
                       value={color}
                       className={`${error ? "error" : null}`}
                       onChange={(e) => setColor(e.target.value)}

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="copy to clipboard functionality">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="debugging the utils.js file and single color">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/color-generators/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/color-generators/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/color-generators/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/color-generators/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/color-generators/src/SingleColor.js" beforeDir="false" afterPath="$PROJECT_DIR$/color-generators/src/SingleColor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/color-generators/src/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/color-generators/src/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/color-generators/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/color-generators/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,14 +150,7 @@
       <workItem from="1657022840534" duration="5041000" />
       <workItem from="1657035336970" duration="393000" />
       <workItem from="1657093684529" duration="8891000" />
-      <workItem from="1657272284353" duration="2232000" />
-    </task>
-    <task id="LOCAL-00106" summary="setting the state and the characters for the password">
-      <created>1653486258827</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1653486258827</updated>
+      <workItem from="1657272284353" duration="7203000" />
     </task>
     <task id="LOCAL-00107" summary="create the functions to create password, generate an index, and handle the generator">
       <created>1653596697509</created>
@@ -494,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657098874992</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="debugging the utils.js file and single color">
+      <created>1657274672818</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1657274672820</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,7 +514,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Creating note components" />
     <MESSAGE value="Creating note component" />
     <MESSAGE value="styling note component" />
     <MESSAGE value="styling note component 2" />
@@ -538,6 +538,7 @@
     <MESSAGE value="single component" />
     <MESSAGE value="single component Styling" />
     <MESSAGE value="copy to clipboard functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="copy to clipboard functionality" />
+    <MESSAGE value="debugging the utils.js file and single color" />
+    <option name="LAST_COMMIT_MESSAGE" value="debugging the utils.js file and single color" />
   </component>
 </project>
