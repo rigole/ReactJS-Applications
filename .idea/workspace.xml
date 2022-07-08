@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="single component Styling">
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="copy to clipboard functionality">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/color-generators/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/color-generators/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/color-generators/src/SingleColor.js" beforeDir="false" afterPath="$PROJECT_DIR$/color-generators/src/SingleColor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/color-generators/src/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/color-generators/src/utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,14 +148,8 @@
       <workItem from="1656959320032" duration="258000" />
       <workItem from="1657022840534" duration="5041000" />
       <workItem from="1657035336970" duration="393000" />
-      <workItem from="1657093684529" duration="4640000" />
-    </task>
-    <task id="LOCAL-00105" summary="adding the style with Sass 3">
-      <created>1653481267092</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1653481267092</updated>
+      <workItem from="1657093684529" duration="8891000" />
+      <workItem from="1657272284353" duration="2232000" />
     </task>
     <task id="LOCAL-00106" summary="setting the state and the characters for the password">
       <created>1653486258827</created>
@@ -492,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657027349124</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="copy to clipboard functionality">
+      <created>1657098874982</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1657098874992</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +513,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="styling the content note 2" />
     <MESSAGE value="Creating note components" />
     <MESSAGE value="Creating note component" />
     <MESSAGE value="styling note component" />
@@ -536,6 +537,7 @@
     <MESSAGE value="RGB to Hex" />
     <MESSAGE value="single component" />
     <MESSAGE value="single component Styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="single component Styling" />
+    <MESSAGE value="copy to clipboard functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="copy to clipboard functionality" />
   </component>
 </project>
