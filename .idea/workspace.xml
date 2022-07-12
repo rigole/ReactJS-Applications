@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="styling the color">
-      <change afterPath="$PROJECT_DIR$/movie-searcher-app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-searcher-app/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-searcher-app/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-searcher-app/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-searcher-app/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-searcher-app/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-searcher-app/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-searcher-app/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-searcher-app/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-searcher-app/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-searcher-app/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-searcher-app/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-searcher-app/src/index.js" afterDir="false" />
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="New project movie searcher">
+      <change afterPath="$PROJECT_DIR$/movie-searcher-app/src/components/MovieList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-searcher-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/movie-searcher-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-searcher-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/movie-searcher-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-searcher-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/movie-searcher-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-searcher-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/movie-searcher-app/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,14 +152,7 @@
       <workItem from="1657035336970" duration="393000" />
       <workItem from="1657093684529" duration="8891000" />
       <workItem from="1657272284353" duration="8028000" />
-      <workItem from="1657620482769" duration="913000" />
-    </task>
-    <task id="LOCAL-00108" summary="create the functions to create password, generate an index, and handle the generator">
-      <created>1653599243577</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1653599243577</updated>
+      <workItem from="1657620482769" duration="5898000" />
     </task>
     <task id="LOCAL-00109" summary="handleGeneratorPassword method">
       <created>1653600085558</created>
@@ -506,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657280553885</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="New project movie searcher">
+      <created>1657621783255</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1657621783255</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +516,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="styling note component" />
     <MESSAGE value="styling note component 2" />
     <MESSAGE value="setting the app.js for deleting and adding notes" />
     <MESSAGE value="adding and deleting notes" />
@@ -550,6 +540,7 @@
     <MESSAGE value="copy to clipboard functionality" />
     <MESSAGE value="debugging the utils.js file and single color" />
     <MESSAGE value="styling the color" />
-    <option name="LAST_COMMIT_MESSAGE" value="styling the color" />
+    <MESSAGE value="New project movie searcher" />
+    <option name="LAST_COMMIT_MESSAGE" value="New project movie searcher" />
   </component>
 </project>
