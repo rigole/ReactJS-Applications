@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="New project movie searcher">
-      <change afterPath="$PROJECT_DIR$/movie-searcher-app/src/components/MovieList.jsx" afterDir="false" />
+    <list default="true" id="1b2ce839-28a9-42df-ba95-4c6f8b3e0108" name="Changes" comment="rendering poster images and new component">
+      <change afterPath="$PROJECT_DIR$/movie-searcher-app/src/components/MovieHeader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-searcher-app/src/components/SearchBox.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-searcher-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/movie-searcher-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-searcher-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/movie-searcher-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-searcher-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/movie-searcher-app/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-searcher-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/movie-searcher-app/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie-searcher-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/movie-searcher-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-searcher-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/movie-searcher-app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-searcher-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/movie-searcher-app/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,14 +153,7 @@
       <workItem from="1657035336970" duration="393000" />
       <workItem from="1657093684529" duration="8891000" />
       <workItem from="1657272284353" duration="8028000" />
-      <workItem from="1657620482769" duration="5898000" />
-    </task>
-    <task id="LOCAL-00109" summary="handleGeneratorPassword method">
-      <created>1653600085558</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1653600085559</updated>
+      <workItem from="1657620482769" duration="11288000" />
     </task>
     <task id="LOCAL-00110" summary="passwordCreator method">
       <created>1653601254949</created>
@@ -497,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657621783255</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="rendering poster images and new component">
+      <created>1657630355775</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1657630355775</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,7 +517,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="styling note component 2" />
     <MESSAGE value="setting the app.js for deleting and adding notes" />
     <MESSAGE value="adding and deleting notes" />
     <MESSAGE value="new project emoji searcher" />
@@ -541,6 +541,7 @@
     <MESSAGE value="debugging the utils.js file and single color" />
     <MESSAGE value="styling the color" />
     <MESSAGE value="New project movie searcher" />
-    <option name="LAST_COMMIT_MESSAGE" value="New project movie searcher" />
+    <MESSAGE value="rendering poster images and new component" />
+    <option name="LAST_COMMIT_MESSAGE" value="rendering poster images and new component" />
   </component>
 </project>
