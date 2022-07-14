@@ -4,7 +4,7 @@ body {
 }
 
 .movie-app > .row {
-  overflow-x: auto;
+  overflow-y: auto;
   flex-wrap: nowrap;
 }
 
@@ -32,4 +32,8 @@ body {
   font-size: 20px;
   padding: 20px;
   text-align: center;
+}
+
+.image-container:hover .overlay{
+  opacity:1;
 }
